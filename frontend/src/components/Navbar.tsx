@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
-import { Sun, Moon, Menu, X, Heart } from 'lucide-react';
+import { Sun, Moon, Menu, X, Heart, User } from 'lucide-react';
 import { useTheme } from '../context/ThemeContext';
 import { Logo } from './Logo';
 
@@ -61,6 +61,13 @@ const Navbar: React.FC = () => {
           >
             <Heart size={18} />
           </Link>
+          <Link
+            to="/admin/login"
+            className="hidden sm:flex min-w-[44px] min-h-[44px] items-center justify-center rounded-full border border-black/10 dark:border-white/10 hover:border-accent hover:text-accent transition-colors"
+            aria-label="Admin dashboard"
+          >
+            <User size={18} />
+          </Link>
           <button
             className="lg:hidden min-w-[44px] min-h-[44px] flex items-center justify-center rounded-full border border-black/10 dark:border-white/10"
             onClick={() => setOpen((o) => !o)}
@@ -87,6 +94,9 @@ const Navbar: React.FC = () => {
           ))}
           <NavLink to="/saved-cars" onClick={() => setOpen(false)} className="text-base font-medium py-3 px-2 flex items-center gap-2">
             <Heart size={16} /> Saved Cars
+          </NavLink>
+          <NavLink to="/admin/login" onClick={() => setOpen(false)} className="text-base font-medium py-3 px-2 flex items-center gap-2">
+            <User size={16} /> Admin Dashboard
           </NavLink>
         </div>
       )}
