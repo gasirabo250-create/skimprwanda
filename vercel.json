@@ -2,7 +2,7 @@
   "version": 2,
   "builds": [
     {
-      "src": "backend/api/index.js",
+      "src": "backend/src/server.js",
       "use": "@vercel/node",
       "config": {
         "maxDuration": 30
@@ -12,9 +12,10 @@
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "backend/api/index.js"
+      "dest": "backend/src/server.js"
     }
   ]
 }
+
 
 
