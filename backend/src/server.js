@@ -77,9 +77,12 @@ app.get('/', (req, res) => res.json({ success: true, message: 'SKIMP Rwanda API'
 app.use(notFound);
 app.use(errorHandler);
 
-const PORT = process.env.PORT || 5000;
-app.listen(PORT, () => {
-  console.log(`SKIMP Rwanda API running on port ${PORT} [${process.env.NODE_ENV || 'development'}]`);
-});
+// Only listen in local development, not on Vercel serverless
+if (!process.env.VERCEL) {
+  const PORT = process.env.PORT || 5000;
+  app.listen(PORT, () => {
+    console.log(`SKIMP Rwanda API running on port ${PORT} [${process.env.NODE_ENV || 'development'}]`);
+  });
+}
 
 module.exports = app;
