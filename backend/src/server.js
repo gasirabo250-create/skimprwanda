@@ -19,29 +19,17 @@ const app = express();
 // Security headers
 app.use(helmet({ crossOriginResourcePolicy: { policy: 'cross-origin' } }));
 
-// CORS - allow local dev and deployed Vercel origins
-const corsOptions = {
-  origin: function (origin, callback) {
-    const allowedOrigins = [
-      'http://localhost:5173',
-      'http://127.0.0.1:5173',
-      'https://skimprwanda.vercel.app',
-      'https://www.skimprwanda.vercel.app',
-    ];
-
-    // Allow if no origin (like mobile apps or curl requests) or if it's in the allowed list
-    if (!origin || allowedOrigins.includes(origin) || (origin && origin.includes('vercel.app'))) {
-      callback(null, true);
-    } else {
-      callback(null, true); // Allow all in development, tighten in production if needed
-    }
-  },
-  credentials: true,
-  methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS'],
-  allowedHeaders: ['Content-Type', 'Authorization'],
-};
-
-app.use(cors(corsOptions));
+// CORS configuration - allow all vercel.app origins and localhost for development
+app.use(
+  cors({
+    origin: true, // Allow all origins (can be restricted later if needed)
+    credentials: true,
+    methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS', 'HEAD'],
+    allowedHeaders: ['Content-Type', 'Authorization', 'X-Requested-With'],
+    exposedHeaders: ['Content-Length', 'X-JSON-Response'],
+    maxAge: 600,
+  })
+);
 
 // Body parsing
 app.use(express.json({ limit: '10mb' }));
