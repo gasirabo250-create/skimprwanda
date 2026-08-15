@@ -9,14 +9,6 @@
       }
     }
   ],
-  "env": {
-    "MONGODB_URI": "@mongodb_uri",
-    "MONGODB_URI_ATLAS": "@mongodb_uri_atlas",
-    "JWT_SECRET": "@jwt_secret",
-    "CLIENT_URL": "@client_url",
-    "SEED_ADMIN_EMAIL": "@seed_admin_email",
-    "SEED_ADMIN_PASSWORD": "@seed_admin_password"
-  },
   "routes": [
     {
       "src": "/(.*)",
