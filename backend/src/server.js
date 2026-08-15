@@ -53,6 +53,11 @@ app.use(
 // Static file serving for locally-uploaded images
 app.use('/uploads', express.static(path.join(__dirname, '..', 'uploads')));
 
+// Health check
+app.get('/', (req, res) => {
+  res.json({ message: 'SKIMP Rwanda API is listening 🚗', timestamp: new Date() });
+});
+
 // Routes
 app.use('/api/admin', require('./routes/authRoutes'));
 app.use('/api/vehicles', require('./routes/vehicleRoutes'));
