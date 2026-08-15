@@ -1,0 +1,6 @@
+frontend
+.git
+.gitignore
+README.md
+*.md
+.env.example

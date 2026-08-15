@@ -71,6 +71,8 @@ app.use('/api/settings', require('./routes/settingsRoutes'));
 app.use('/api/upload', require('./routes/uploadRoutes'));
 
 app.get('/api/health', (req, res) => res.json({ success: true, message: 'SKIMP Rwanda API is running' }));
+app.get('/health', (req, res) => res.json({ success: true, message: 'SKIMP Rwanda API is running' }));
+app.get('/', (req, res) => res.json({ success: true, message: 'SKIMP Rwanda API', status: 'online' }));
 
 app.use(notFound);
 app.use(errorHandler);
