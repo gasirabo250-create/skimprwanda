@@ -26,22 +26,22 @@ const allowedOrigins = [
 ].filter(Boolean);
 
 // Security headers
-app.use(helmet({ crossOriginResourcePolicy: { policy: 'cross-origin' } }));
+// app.use(helmet({ crossOriginResourcePolicy: { policy: 'cross-origin' } }));
 
-// CORS - allow local dev and deployed Vercel origins
-app.use(
-  cors({
-    origin: (origin, callback) => {
-      if (!origin || allowedOrigins.includes(origin) || origin.endsWith('.vercel.app')) {
-        callback(null, true);
-        return;
-      }
+// // CORS - allow local dev and deployed Vercel origins
+// app.use(
+//   cors({
+//     origin: (origin, callback) => {
+//       if (!origin || allowedOrigins.includes(origin) || origin.endsWith('.vercel.app')) {
+//         callback(null, true);
+//         return;
+//       }
 
-      callback(new Error('Not allowed by CORS'));
-    },
-    credentials: true,
-  })
-);
+//       callback(new Error('Not allowed by CORS'));
+//     },
+//     credentials: true,
+//   })
+// );
 
 // Body parsing
 app.use(express.json({ limit: '10mb' }));
