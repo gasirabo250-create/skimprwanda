@@ -12,9 +12,16 @@ const xss = require('xss-clean');
 const connectDB = require('./config/db');
 const { notFound, errorHandler } = require('./middleware/errorHandler');
 
-connectDB();
+// Connect to MongoDB asynchronously, don't block app initialization
+if (!process.env.VERCEL || process.env.NODE_ENV === 'development') {
+  connectDB().catch(err => console.error('MongoDB connection error:', err.message));
+}
 
 const app = express();
+
+// Health check before DB (for serverless monitoring)
+app.get('/health', (req, res) => res.status(200).json({ ok: true }));
+app.get('/api/health', (req, res) => res.status(200).json({ ok: true }));
 
 // Security headers
 app.use(helmet({ crossOriginResourcePolicy: { policy: 'cross-origin' } }));
@@ -30,6 +37,21 @@ app.use(
     maxAge: 600,
   })
 );
+
+// Middleware to ensure DB is connected (lazy connect for serverless)
+app.use(async (req, res, next) => {
+  if (req.path === '/health' || req.path === '/api/health') {
+    return next();
+  }
+  
+  try {
+    await connectDB();
+  } catch (err) {
+    console.error('DB connection error:', err.message);
+    // Continue anyway - some endpoints might not need DB
+  }
+  next();
+});
 
 // Body parsing
 app.use(express.json({ limit: '10mb' }));
@@ -69,10 +91,6 @@ app.use('/api/articles', require('./routes/articleRoutes'));
 app.use('/api/reviews', require('./routes/reviewRoutes'));
 app.use('/api/settings', require('./routes/settingsRoutes'));
 app.use('/api/upload', require('./routes/uploadRoutes'));
-
-app.get('/api/health', (req, res) => res.json({ success: true, message: 'SKIMP Rwanda API is running' }));
-app.get('/health', (req, res) => res.json({ success: true, message: 'SKIMP Rwanda API is running' }));
-app.get('/', (req, res) => res.json({ success: true, message: 'SKIMP Rwanda API', status: 'online' }));
 
 app.use(notFound);
 app.use(errorHandler);
