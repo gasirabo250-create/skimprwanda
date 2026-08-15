@@ -40,7 +40,7 @@ const ModelsAdmin: React.FC = () => {
   return (
     <div>
       <h1 className="text-2xl font-bold mb-6">Models</h1>
-      <form onSubmit={handleAdd} className="grid sm:grid-cols-4 gap-3 mb-6 max-w-2xl">
+      <form onSubmit={handleAdd} className="grid sm:grid-cols-2 lg:grid-cols-4 gap-3 mb-6">
         <select value={form.brandId} onChange={(e) => setForm((f) => ({ ...f, brandId: e.target.value }))} className={inputClass}>
           <option value="">Select brand</option>
           {brands.map((b) => <option key={b._id} value={b._id}>{b.name}</option>)}
@@ -53,7 +53,8 @@ const ModelsAdmin: React.FC = () => {
       </form>
       {error && <p className="text-sm text-red-500 mb-4">{error}</p>}
 
-      <div className="overflow-x-auto">
+      {/* Desktop Table View */}
+      <div className="hidden md:block overflow-x-auto">
         <table className="w-full text-sm">
           <thead>
             <tr className="text-left border-b border-black/10 dark:border-white/10">
@@ -74,6 +75,22 @@ const ModelsAdmin: React.FC = () => {
             ))}
           </tbody>
         </table>
+      </div>
+
+      {/* Mobile Card View */}
+      <div className="md:hidden grid sm:grid-cols-2 gap-4">
+        {models.map((m) => (
+          <div key={m._id} className="rounded-lg border border-black/10 dark:border-white/10 p-4">
+            <p className="font-semibold mb-2">{m.name}</p>
+            <div className="space-y-1 text-sm mb-4">
+              <p className="text-black/60 dark:text-white/60">Brand: <span className="font-semibold text-black dark:text-white">{typeof m.brandId === 'object' ? m.brandId.name : ''}</span></p>
+              <p className="text-black/60 dark:text-white/60">Type: <span className="font-semibold text-black dark:text-white">{m.bodyType}</span></p>
+            </div>
+            <button onClick={() => handleDelete(m._id)} className="w-full font-semibold text-red-500 hover:underline text-sm py-2 border border-red-500 rounded-lg">
+              Delete
+            </button>
+          </div>
+        ))}
       </div>
     </div>
   );
