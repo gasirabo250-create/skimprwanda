@@ -163,6 +163,7 @@ const seed = async () => {
         vehiclesToCreate.push({
           brandId: brand._id,
           modelId: model._id,
+          slug: makeSlug(`${year}-${b.name}-${m.name}-${i}`),
           year,
           price: randomInt(8, 65) * 1_000_000, // RWF
           mileage: randomInt(5000, 120000),
