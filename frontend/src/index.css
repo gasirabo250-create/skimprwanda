@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-white text-ink dark:bg-ink dark:text-white transition-colors duration-300 font-sans antialiased;
+}
+
+h1, h2, h3, h4, .font-display {
+  font-family: 'Space Grotesk', system-ui, sans-serif;
+}
+
+/* Digital readout style for prices, mileage, specs — evokes a car's instrument cluster */
+.data-readout {
+  font-family: 'JetBrains Mono', ui-monospace, monospace;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.01em;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  @apply bg-transparent;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-black/15 dark:bg-white/15 rounded-full;
+}
+
+/* Focus visibility kept crisp against both black and white surfaces */
+:focus-visible {
+  outline: 2px solid #FF5A1F;
+  outline-offset: 2px;
+}

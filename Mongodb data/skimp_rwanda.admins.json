@@ -1,0 +1,16 @@
+[{
+  "_id": {
+    "$oid": "6a7fd56418ce563fe1958502"
+  },
+  "email": "admin@skimprwanda.com",
+  "password": "$2a$12$LtNpcPiVmffVcXiKRn97ROpS57RAQog7lrXeJ8keE4120iLPI0sw2",
+  "name": "SKIMP Admin",
+  "role": "superadmin",
+  "createdAt": {
+    "$date": "2026-08-15T02:56:36.889Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-15T02:56:36.889Z"
+  },
+  "__v": 0
+}]

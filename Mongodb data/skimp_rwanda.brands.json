@@ -1,0 +1,187 @@
+[{
+  "_id": {
+    "$oid": "6a7fd56518ce563fe1958507"
+  },
+  "name": "Toyota",
+  "slug": "toyota",
+  "logo": "",
+  "description": "",
+  "featured": true,
+  "createdAt": {
+    "$date": "2026-08-15T02:56:37.349Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-15T02:56:37.349Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a7fd56518ce563fe1958515"
+  },
+  "name": "Hyundai",
+  "slug": "hyundai",
+  "logo": "",
+  "description": "",
+  "featured": true,
+  "createdAt": {
+    "$date": "2026-08-15T02:56:37.368Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-15T02:56:37.368Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a7fd56518ce563fe195851f"
+  },
+  "name": "Kia",
+  "slug": "kia",
+  "logo": "",
+  "description": "",
+  "featured": false,
+  "createdAt": {
+    "$date": "2026-08-15T02:56:37.376Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-15T02:56:37.376Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a7fd56518ce563fe1958527"
+  },
+  "name": "Honda",
+  "slug": "honda",
+  "logo": "",
+  "description": "",
+  "featured": false,
+  "createdAt": {
+    "$date": "2026-08-15T02:56:37.385Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-15T02:56:37.385Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a7fd56518ce563fe195852f"
+  },
+  "name": "Lexus",
+  "slug": "lexus",
+  "logo": "",
+  "description": "",
+  "featured": true,
+  "createdAt": {
+    "$date": "2026-08-15T02:56:37.392Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-15T02:56:37.392Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a7fd56518ce563fe1958537"
+  },
+  "name": "Nissan",
+  "slug": "nissan",
+  "logo": "",
+  "description": "",
+  "featured": false,
+  "createdAt": {
+    "$date": "2026-08-15T02:56:37.403Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-15T02:56:37.403Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a7fd56518ce563fe195853d"
+  },
+  "name": "Suzuki",
+  "slug": "suzuki",
+  "logo": "",
+  "description": "",
+  "featured": false,
+  "createdAt": {
+    "$date": "2026-08-15T02:56:37.408Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-15T02:56:37.408Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a7fd56518ce563fe1958545"
+  },
+  "name": "Mercedes-Benz",
+  "slug": "mercedes-benz",
+  "logo": "",
+  "description": "",
+  "featured": false,
+  "createdAt": {
+    "$date": "2026-08-15T02:56:37.419Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-15T02:56:37.419Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a7fd56518ce563fe195854d"
+  },
+  "name": "BMW",
+  "slug": "bmw",
+  "logo": "",
+  "description": "",
+  "featured": true,
+  "createdAt": {
+    "$date": "2026-08-15T02:56:37.428Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-15T02:56:37.428Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a7fd56518ce563fe1958553"
+  },
+  "name": "BYD",
+  "slug": "byd",
+  "logo": "",
+  "description": "",
+  "featured": false,
+  "createdAt": {
+    "$date": "2026-08-15T02:56:37.434Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-15T02:56:37.434Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a7fd56518ce563fe1958559"
+  },
+  "name": "Tesla",
+  "slug": "tesla",
+  "logo": "",
+  "description": "",
+  "featured": false,
+  "createdAt": {
+    "$date": "2026-08-15T02:56:37.441Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-15T02:56:37.441Z"
+  },
+  "__v": 0
+}]

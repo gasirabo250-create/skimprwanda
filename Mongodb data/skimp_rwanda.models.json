@@ -1,0 +1,594 @@
+[{
+  "_id": {
+    "$oid": "6a7fd56518ce563fe1958509"
+  },
+  "name": "RAV4",
+  "slug": "rav4",
+  "brandId": {
+    "$oid": "6a7fd56518ce563fe1958507"
+  },
+  "bodyType": "SUV",
+  "createdAt": {
+    "$date": "2026-08-15T02:56:37.354Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-15T02:56:37.354Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a7fd56518ce563fe195850b"
+  },
+  "name": "Corolla",
+  "slug": "corolla",
+  "brandId": {
+    "$oid": "6a7fd56518ce563fe1958507"
+  },
+  "bodyType": "Sedan",
+  "createdAt": {
+    "$date": "2026-08-15T02:56:37.356Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-15T02:56:37.356Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a7fd56518ce563fe195850d"
+  },
+  "name": "Land Cruiser Prado",
+  "slug": "land-cruiser-prado",
+  "brandId": {
+    "$oid": "6a7fd56518ce563fe1958507"
+  },
+  "bodyType": "SUV",
+  "createdAt": {
+    "$date": "2026-08-15T02:56:37.359Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-15T02:56:37.359Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a7fd56518ce563fe195850f"
+  },
+  "name": "Hilux",
+  "slug": "hilux",
+  "brandId": {
+    "$oid": "6a7fd56518ce563fe1958507"
+  },
+  "bodyType": "Pickup",
+  "createdAt": {
+    "$date": "2026-08-15T02:56:37.361Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-15T02:56:37.361Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a7fd56518ce563fe1958511"
+  },
+  "name": "Fortuner",
+  "slug": "fortuner",
+  "brandId": {
+    "$oid": "6a7fd56518ce563fe1958507"
+  },
+  "bodyType": "SUV",
+  "createdAt": {
+    "$date": "2026-08-15T02:56:37.363Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-15T02:56:37.363Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a7fd56518ce563fe1958513"
+  },
+  "name": "Harrier",
+  "slug": "harrier",
+  "brandId": {
+    "$oid": "6a7fd56518ce563fe1958507"
+  },
+  "bodyType": "SUV",
+  "createdAt": {
+    "$date": "2026-08-15T02:56:37.365Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-15T02:56:37.365Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a7fd56518ce563fe1958517"
+  },
+  "name": "Tucson",
+  "slug": "tucson",
+  "brandId": {
+    "$oid": "6a7fd56518ce563fe1958515"
+  },
+  "bodyType": "SUV",
+  "createdAt": {
+    "$date": "2026-08-15T02:56:37.370Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-15T02:56:37.370Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a7fd56518ce563fe1958519"
+  },
+  "name": "Santa Fe",
+  "slug": "santa-fe",
+  "brandId": {
+    "$oid": "6a7fd56518ce563fe1958515"
+  },
+  "bodyType": "SUV",
+  "createdAt": {
+    "$date": "2026-08-15T02:56:37.371Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-15T02:56:37.371Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a7fd56518ce563fe195851b"
+  },
+  "name": "Creta",
+  "slug": "creta",
+  "brandId": {
+    "$oid": "6a7fd56518ce563fe1958515"
+  },
+  "bodyType": "Crossover",
+  "createdAt": {
+    "$date": "2026-08-15T02:56:37.372Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-15T02:56:37.372Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a7fd56518ce563fe195851d"
+  },
+  "name": "Elantra",
+  "slug": "elantra",
+  "brandId": {
+    "$oid": "6a7fd56518ce563fe1958515"
+  },
+  "bodyType": "Sedan",
+  "createdAt": {
+    "$date": "2026-08-15T02:56:37.374Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-15T02:56:37.374Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a7fd56518ce563fe1958521"
+  },
+  "name": "Sportage",
+  "slug": "sportage",
+  "brandId": {
+    "$oid": "6a7fd56518ce563fe195851f"
+  },
+  "bodyType": "SUV",
+  "createdAt": {
+    "$date": "2026-08-15T02:56:37.378Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-15T02:56:37.378Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a7fd56518ce563fe1958523"
+  },
+  "name": "Sorento",
+  "slug": "sorento",
+  "brandId": {
+    "$oid": "6a7fd56518ce563fe195851f"
+  },
+  "bodyType": "SUV",
+  "createdAt": {
+    "$date": "2026-08-15T02:56:37.380Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-15T02:56:37.380Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a7fd56518ce563fe1958525"
+  },
+  "name": "Seltos",
+  "slug": "seltos",
+  "brandId": {
+    "$oid": "6a7fd56518ce563fe195851f"
+  },
+  "bodyType": "Crossover",
+  "createdAt": {
+    "$date": "2026-08-15T02:56:37.383Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-15T02:56:37.383Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a7fd56518ce563fe1958529"
+  },
+  "name": "CR-V",
+  "slug": "cr-v",
+  "brandId": {
+    "$oid": "6a7fd56518ce563fe1958527"
+  },
+  "bodyType": "SUV",
+  "createdAt": {
+    "$date": "2026-08-15T02:56:37.387Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-15T02:56:37.387Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a7fd56518ce563fe195852b"
+  },
+  "name": "Vezel",
+  "slug": "vezel",
+  "brandId": {
+    "$oid": "6a7fd56518ce563fe1958527"
+  },
+  "bodyType": "Crossover",
+  "createdAt": {
+    "$date": "2026-08-15T02:56:37.388Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-15T02:56:37.388Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a7fd56518ce563fe195852d"
+  },
+  "name": "Civic",
+  "slug": "civic",
+  "brandId": {
+    "$oid": "6a7fd56518ce563fe1958527"
+  },
+  "bodyType": "Sedan",
+  "createdAt": {
+    "$date": "2026-08-15T02:56:37.389Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-15T02:56:37.389Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a7fd56518ce563fe1958531"
+  },
+  "name": "RX",
+  "slug": "rx",
+  "brandId": {
+    "$oid": "6a7fd56518ce563fe195852f"
+  },
+  "bodyType": "SUV",
+  "createdAt": {
+    "$date": "2026-08-15T02:56:37.395Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-15T02:56:37.395Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a7fd56518ce563fe1958533"
+  },
+  "name": "NX",
+  "slug": "nx",
+  "brandId": {
+    "$oid": "6a7fd56518ce563fe195852f"
+  },
+  "bodyType": "SUV",
+  "createdAt": {
+    "$date": "2026-08-15T02:56:37.397Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-15T02:56:37.397Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a7fd56518ce563fe1958535"
+  },
+  "name": "LX",
+  "slug": "lx",
+  "brandId": {
+    "$oid": "6a7fd56518ce563fe195852f"
+  },
+  "bodyType": "SUV",
+  "createdAt": {
+    "$date": "2026-08-15T02:56:37.400Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-15T02:56:37.400Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a7fd56518ce563fe1958539"
+  },
+  "name": "X-Trail",
+  "slug": "x-trail",
+  "brandId": {
+    "$oid": "6a7fd56518ce563fe1958537"
+  },
+  "bodyType": "SUV",
+  "createdAt": {
+    "$date": "2026-08-15T02:56:37.405Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-15T02:56:37.405Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a7fd56518ce563fe195853b"
+  },
+  "name": "Patrol",
+  "slug": "patrol",
+  "brandId": {
+    "$oid": "6a7fd56518ce563fe1958537"
+  },
+  "bodyType": "SUV",
+  "createdAt": {
+    "$date": "2026-08-15T02:56:37.406Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-15T02:56:37.406Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a7fd56518ce563fe195853f"
+  },
+  "name": "Vitara",
+  "slug": "vitara",
+  "brandId": {
+    "$oid": "6a7fd56518ce563fe195853d"
+  },
+  "bodyType": "SUV",
+  "createdAt": {
+    "$date": "2026-08-15T02:56:37.410Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-15T02:56:37.410Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a7fd56518ce563fe1958541"
+  },
+  "name": "Jimny",
+  "slug": "jimny",
+  "brandId": {
+    "$oid": "6a7fd56518ce563fe195853d"
+  },
+  "bodyType": "SUV",
+  "createdAt": {
+    "$date": "2026-08-15T02:56:37.414Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-15T02:56:37.414Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a7fd56518ce563fe1958543"
+  },
+  "name": "Swift",
+  "slug": "swift",
+  "brandId": {
+    "$oid": "6a7fd56518ce563fe195853d"
+  },
+  "bodyType": "Hatchback",
+  "createdAt": {
+    "$date": "2026-08-15T02:56:37.417Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-15T02:56:37.417Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a7fd56518ce563fe1958547"
+  },
+  "name": "GLC",
+  "slug": "glc",
+  "brandId": {
+    "$oid": "6a7fd56518ce563fe1958545"
+  },
+  "bodyType": "SUV",
+  "createdAt": {
+    "$date": "2026-08-15T02:56:37.420Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-15T02:56:37.420Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a7fd56518ce563fe1958549"
+  },
+  "name": "C-Class",
+  "slug": "c-class",
+  "brandId": {
+    "$oid": "6a7fd56518ce563fe1958545"
+  },
+  "bodyType": "Sedan",
+  "createdAt": {
+    "$date": "2026-08-15T02:56:37.422Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-15T02:56:37.422Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a7fd56518ce563fe195854b"
+  },
+  "name": "E-Class",
+  "slug": "e-class",
+  "brandId": {
+    "$oid": "6a7fd56518ce563fe1958545"
+  },
+  "bodyType": "Sedan",
+  "createdAt": {
+    "$date": "2026-08-15T02:56:37.425Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-15T02:56:37.425Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a7fd56518ce563fe195854f"
+  },
+  "name": "X3",
+  "slug": "x3",
+  "brandId": {
+    "$oid": "6a7fd56518ce563fe195854d"
+  },
+  "bodyType": "SUV",
+  "createdAt": {
+    "$date": "2026-08-15T02:56:37.430Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-15T02:56:37.430Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a7fd56518ce563fe1958551"
+  },
+  "name": "X5",
+  "slug": "x5",
+  "brandId": {
+    "$oid": "6a7fd56518ce563fe195854d"
+  },
+  "bodyType": "SUV",
+  "createdAt": {
+    "$date": "2026-08-15T02:56:37.432Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-15T02:56:37.432Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a7fd56518ce563fe1958555"
+  },
+  "name": "Atto 3",
+  "slug": "atto-3",
+  "brandId": {
+    "$oid": "6a7fd56518ce563fe1958553"
+  },
+  "bodyType": "Crossover",
+  "createdAt": {
+    "$date": "2026-08-15T02:56:37.437Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-15T02:56:37.437Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a7fd56518ce563fe1958557"
+  },
+  "name": "Dolphin",
+  "slug": "dolphin",
+  "brandId": {
+    "$oid": "6a7fd56518ce563fe1958553"
+  },
+  "bodyType": "Hatchback",
+  "createdAt": {
+    "$date": "2026-08-15T02:56:37.439Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-15T02:56:37.439Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a7fd56518ce563fe195855b"
+  },
+  "name": "Model 3",
+  "slug": "model-3",
+  "brandId": {
+    "$oid": "6a7fd56518ce563fe1958559"
+  },
+  "bodyType": "Sedan",
+  "createdAt": {
+    "$date": "2026-08-15T02:56:37.442Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-15T02:56:37.442Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a7fd56518ce563fe195855d"
+  },
+  "name": "Model Y",
+  "slug": "model-y",
+  "brandId": {
+    "$oid": "6a7fd56518ce563fe1958559"
+  },
+  "bodyType": "SUV",
+  "createdAt": {
+    "$date": "2026-08-15T02:56:37.445Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-15T02:56:37.445Z"
+  },
+  "__v": 0
+}]

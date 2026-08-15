@@ -1,0 +1,13 @@
+const { validationResult } = require('express-validator');
+
+// Runs after express-validator check() chains; returns 400 with details on failure
+const validate = (req, res, next) => {
+  const errors = validationResult(req);
+  if (!errors.isEmpty()) {
+    res.status(400);
+    return res.json({ success: false, message: 'Validation failed', errors: errors.array() });
+  }
+  next();
+};
+
+module.exports = validate;

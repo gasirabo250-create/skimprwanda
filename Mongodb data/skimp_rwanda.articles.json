@@ -1,0 +1,42 @@
+[{
+  "_id": {
+    "$oid": "6a7fd56518ce563fe1958593"
+  },
+  "title": "How to Choose Your First Car in Rwanda",
+  "slug": "how-to-choose-your-first-car-in-rwanda",
+  "category": "Car Buying",
+  "coverImage": "",
+  "excerpt": "A practical guide for first-time buyers navigating the Kigali used car market.",
+  "content": "Full article content goes here — replace with real, original SKIMP Rwanda editorial content before publishing.",
+  "author": "SKIMP Rwanda",
+  "readTime": 6,
+  "published": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-08-15T02:56:37.517Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-15T02:56:37.517Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a7fd56518ce563fe1958594"
+  },
+  "title": "Hybrid vs Petrol: What Makes Sense on Kigali Roads",
+  "slug": "hybrid-vs-petrol-what-makes-sense-on-kigali-roads",
+  "category": "EV/Hybrid",
+  "coverImage": "",
+  "excerpt": "Fuel costs, maintenance, and resale value compared for the Rwandan market.",
+  "content": "Full article content goes here — replace with real, original SKIMP Rwanda editorial content before publishing.",
+  "author": "SKIMP Rwanda",
+  "readTime": 5,
+  "published": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-08-15T02:56:37.517Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-15T02:56:37.517Z"
+  }
+}]

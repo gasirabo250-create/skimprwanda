@@ -1,0 +1,2550 @@
+[{
+  "_id": {
+    "$oid": "6a7fd56518ce563fe195855f"
+  },
+  "brandId": {
+    "$oid": "6a7fd56518ce563fe1958507"
+  },
+  "modelId": {
+    "$oid": "6a7fd56518ce563fe1958509"
+  },
+  "slug": "toyota-rav4-2019-0",
+  "year": 2019,
+  "price": 10000000,
+  "mileage": 43209,
+  "fuel": "Diesel",
+  "transmission": "Manual",
+  "engine": "1.8L",
+  "bodyType": "SUV",
+  "color": "Silver",
+  "seats": 5,
+  "doors": 4,
+  "driveType": "AWD",
+  "location": "Kigali - Remera",
+  "condition": "Used",
+  "description": "A well-maintained 2019 Toyota RAV4, imported and inspected. Full service history available on request.",
+  "features": [
+    "Air Conditioning",
+    "Bluetooth",
+    "Reverse Camera",
+    "Alloy Wheels",
+    "Cruise Control"
+  ],
+  "images": [
+    {
+      "url": "https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=1200&q=80&Toyota%20RAV4",
+      "isPrimary": true
+    }
+  ],
+  "status": "Available",
+  "featured": false,
+  "isDemo": true,
+  "views": 120,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-08-15T02:56:37.489Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-15T02:56:37.489Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a7fd56518ce563fe1958560"
+  },
+  "brandId": {
+    "$oid": "6a7fd56518ce563fe1958507"
+  },
+  "modelId": {
+    "$oid": "6a7fd56518ce563fe195850b"
+  },
+  "slug": "toyota-corolla-2019-0",
+  "year": 2019,
+  "price": 44000000,
+  "mileage": 61059,
+  "fuel": "Diesel",
+  "transmission": "Automatic",
+  "engine": "1.5L",
+  "bodyType": "Sedan",
+  "color": "Red",
+  "seats": 5,
+  "doors": 4,
+  "driveType": "FWD",
+  "location": "Kigali - Kimironko",
+  "condition": "Used",
+  "description": "A well-maintained 2019 Toyota Corolla, imported and inspected. Full service history available on request.",
+  "features": [
+    "Air Conditioning",
+    "Bluetooth",
+    "Reverse Camera",
+    "Alloy Wheels",
+    "Cruise Control"
+  ],
+  "images": [
+    {
+      "url": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1200&q=80&Toyota%20Corolla",
+      "isPrimary": true
+    }
+  ],
+  "status": "Available",
+  "featured": false,
+  "isDemo": true,
+  "views": 76,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-08-15T02:56:37.489Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-15T02:56:37.489Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a7fd56518ce563fe1958561"
+  },
+  "brandId": {
+    "$oid": "6a7fd56518ce563fe1958507"
+  },
+  "modelId": {
+    "$oid": "6a7fd56518ce563fe195850b"
+  },
+  "slug": "toyota-corolla-2021-1",
+  "year": 2021,
+  "price": 13000000,
+  "mileage": 19330,
+  "fuel": "Petrol",
+  "transmission": "Automatic",
+  "engine": "2.1L",
+  "bodyType": "Sedan",
+  "color": "Silver",
+  "seats": 5,
+  "doors": 4,
+  "driveType": "FWD",
+  "location": "Kigali - Kacyiru",
+  "condition": "Used",
+  "description": "A well-maintained 2021 Toyota Corolla, imported and inspected. Full service history available on request.",
+  "features": [
+    "Air Conditioning",
+    "Bluetooth",
+    "Reverse Camera",
+    "Alloy Wheels",
+    "Cruise Control"
+  ],
+  "images": [
+    {
+      "url": "https://images.unsplash.com/photo-1553440569-bcc63803a83d?auto=format&fit=crop&w=1200&q=80&Toyota%20Corolla",
+      "isPrimary": true
+    }
+  ],
+  "status": "Available",
+  "featured": false,
+  "isDemo": true,
+  "views": 161,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-08-15T02:56:37.489Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-15T02:56:37.489Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a7fd56518ce563fe1958562"
+  },
+  "brandId": {
+    "$oid": "6a7fd56518ce563fe1958507"
+  },
+  "modelId": {
+    "$oid": "6a7fd56518ce563fe195850d"
+  },
+  "slug": "toyota-land-cruiser-prado-2020-0",
+  "year": 2020,
+  "price": 52000000,
+  "mileage": 27074,
+  "fuel": "Diesel",
+  "transmission": "Manual",
+  "engine": "2.3L",
+  "bodyType": "SUV",
+  "color": "Red",
+  "seats": 5,
+  "doors": 4,
+  "driveType": "AWD",
+  "location": "Kigali - Nyarutarama",
+  "condition": "Used",
+  "description": "A well-maintained 2020 Toyota Land Cruiser Prado, imported and inspected. Full service history available on request.",
+  "features": [
+    "Air Conditioning",
+    "Bluetooth",
+    "Reverse Camera",
+    "Alloy Wheels",
+    "Cruise Control"
+  ],
+  "images": [
+    {
+      "url": "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&w=1200&q=80&Toyota%20Land%20Cruiser%20Prado",
+      "isPrimary": true
+    }
+  ],
+  "status": "Available",
+  "featured": false,
+  "isDemo": true,
+  "views": 204,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-08-15T02:56:37.489Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-15T02:56:37.489Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a7fd56518ce563fe1958563"
+  },
+  "brandId": {
+    "$oid": "6a7fd56518ce563fe1958507"
+  },
+  "modelId": {
+    "$oid": "6a7fd56518ce563fe195850f"
+  },
+  "slug": "toyota-hilux-2024-0",
+  "year": 2024,
+  "price": 11000000,
+  "mileage": 44429,
+  "fuel": "Electric",
+  "transmission": "Manual",
+  "engine": "2.5L",
+  "bodyType": "Pickup",
+  "color": "Red",
+  "seats": 4,
+  "doors": 2,
+  "driveType": "4WD",
+  "location": "Kigali - Nyarutarama",
+  "condition": "Used",
+  "description": "A well-maintained 2024 Toyota Hilux, imported and inspected. Full service history available on request.",
+  "features": [
+    "Air Conditioning",
+    "Bluetooth",
+    "Reverse Camera",
+    "Alloy Wheels",
+    "Cruise Control"
+  ],
+  "images": [
+    {
+      "url": "https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?auto=format&fit=crop&w=1200&q=80&Toyota%20Hilux",
+      "isPrimary": true
+    }
+  ],
+  "status": "Available",
+  "featured": true,
+  "isDemo": true,
+  "views": 416,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-08-15T02:56:37.490Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-15T02:56:37.490Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a7fd56518ce563fe1958564"
+  },
+  "brandId": {
+    "$oid": "6a7fd56518ce563fe1958507"
+  },
+  "modelId": {
+    "$oid": "6a7fd56518ce563fe1958511"
+  },
+  "slug": "toyota-fortuner-2020-0",
+  "year": 2020,
+  "price": 52000000,
+  "mileage": 9516,
+  "fuel": "Petrol",
+  "transmission": "Manual",
+  "engine": "2.2L",
+  "bodyType": "SUV",
+  "color": "Red",
+  "seats": 5,
+  "doors": 4,
+  "driveType": "4WD",
+  "location": "Kigali - Nyarutarama",
+  "condition": "Used",
+  "description": "A well-maintained 2020 Toyota Fortuner, imported and inspected. Full service history available on request.",
+  "features": [
+    "Air Conditioning",
+    "Bluetooth",
+    "Reverse Camera",
+    "Alloy Wheels",
+    "Cruise Control"
+  ],
+  "images": [
+    {
+      "url": "https://images.unsplash.com/photo-1553440569-bcc63803a83d?auto=format&fit=crop&w=1200&q=80&Toyota%20Fortuner",
+      "isPrimary": true
+    }
+  ],
+  "status": "Available",
+  "featured": false,
+  "isDemo": true,
+  "views": 497,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-08-15T02:56:37.490Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-15T02:56:37.490Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a7fd56518ce563fe1958565"
+  },
+  "brandId": {
+    "$oid": "6a7fd56518ce563fe1958507"
+  },
+  "modelId": {
+    "$oid": "6a7fd56518ce563fe1958513"
+  },
+  "slug": "toyota-harrier-2019-0",
+  "year": 2019,
+  "price": 20000000,
+  "mileage": 31975,
+  "fuel": "Petrol",
+  "transmission": "Manual",
+  "engine": "2.4L",
+  "bodyType": "SUV",
+  "color": "Graphite Grey",
+  "seats": 5,
+  "doors": 4,
+  "driveType": "AWD",
+  "location": "Kigali - Kimironko",
+  "condition": "Used",
+  "description": "A well-maintained 2019 Toyota Harrier, imported and inspected. Full service history available on request.",
+  "features": [
+    "Air Conditioning",
+    "Bluetooth",
+    "Reverse Camera",
+    "Alloy Wheels",
+    "Cruise Control"
+  ],
+  "images": [
+    {
+      "url": "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&w=1200&q=80&Toyota%20Harrier",
+      "isPrimary": true
+    }
+  ],
+  "status": "Available",
+  "featured": true,
+  "isDemo": true,
+  "views": 136,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-08-15T02:56:37.490Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-15T02:56:37.490Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a7fd56518ce563fe1958566"
+  },
+  "brandId": {
+    "$oid": "6a7fd56518ce563fe1958507"
+  },
+  "modelId": {
+    "$oid": "6a7fd56518ce563fe1958513"
+  },
+  "slug": "toyota-harrier-2019-1",
+  "year": 2019,
+  "price": 53000000,
+  "mileage": 11152,
+  "fuel": "Electric",
+  "transmission": "Automatic",
+  "engine": "2.1L",
+  "bodyType": "SUV",
+  "color": "Silver",
+  "seats": 7,
+  "doors": 4,
+  "driveType": "AWD",
+  "location": "Kigali - Remera",
+  "condition": "Used",
+  "description": "A well-maintained 2019 Toyota Harrier, imported and inspected. Full service history available on request.",
+  "features": [
+    "Air Conditioning",
+    "Bluetooth",
+    "Reverse Camera",
+    "Alloy Wheels",
+    "Cruise Control"
+  ],
+  "images": [
+    {
+      "url": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1200&q=80&Toyota%20Harrier",
+      "isPrimary": true
+    }
+  ],
+  "status": "Available",
+  "featured": false,
+  "isDemo": true,
+  "views": 28,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-08-15T02:56:37.490Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-15T02:56:37.490Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a7fd56518ce563fe1958567"
+  },
+  "brandId": {
+    "$oid": "6a7fd56518ce563fe1958515"
+  },
+  "modelId": {
+    "$oid": "6a7fd56518ce563fe1958517"
+  },
+  "slug": "hyundai-tucson-2018-0",
+  "year": 2018,
+  "price": 27000000,
+  "mileage": 32445,
+  "fuel": "Hybrid",
+  "transmission": "Automatic",
+  "engine": "3.3L",
+  "bodyType": "SUV",
+  "color": "Graphite Grey",
+  "seats": 5,
+  "doors": 4,
+  "driveType": "4WD",
+  "location": "Kigali - Remera",
+  "condition": "Used",
+  "description": "A well-maintained 2018 Hyundai Tucson, imported and inspected. Full service history available on request.",
+  "features": [
+    "Air Conditioning",
+    "Bluetooth",
+    "Reverse Camera",
+    "Alloy Wheels",
+    "Cruise Control"
+  ],
+  "images": [
+    {
+      "url": "https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=1200&q=80&Hyundai%20Tucson",
+      "isPrimary": true
+    }
+  ],
+  "status": "Available",
+  "featured": false,
+  "isDemo": true,
+  "views": 199,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-08-15T02:56:37.490Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-15T02:56:37.490Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a7fd56518ce563fe1958568"
+  },
+  "brandId": {
+    "$oid": "6a7fd56518ce563fe1958515"
+  },
+  "modelId": {
+    "$oid": "6a7fd56518ce563fe1958517"
+  },
+  "slug": "hyundai-tucson-2022-1",
+  "year": 2022,
+  "price": 9000000,
+  "mileage": 47469,
+  "fuel": "Hybrid",
+  "transmission": "Manual",
+  "engine": "2.5L",
+  "bodyType": "SUV",
+  "color": "Pearl White",
+  "seats": 7,
+  "doors": 4,
+  "driveType": "4WD",
+  "location": "Kigali - Remera",
+  "condition": "Used",
+  "description": "A well-maintained 2022 Hyundai Tucson, imported and inspected. Full service history available on request.",
+  "features": [
+    "Air Conditioning",
+    "Bluetooth",
+    "Reverse Camera",
+    "Alloy Wheels",
+    "Cruise Control"
+  ],
+  "images": [
+    {
+      "url": "https://images.unsplash.com/photo-1583121274602-3e2820c69888?auto=format&fit=crop&w=1200&q=80&Hyundai%20Tucson",
+      "isPrimary": true
+    }
+  ],
+  "status": "Available",
+  "featured": true,
+  "isDemo": true,
+  "views": 270,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-08-15T02:56:37.490Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-15T02:56:37.490Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a7fd56518ce563fe1958569"
+  },
+  "brandId": {
+    "$oid": "6a7fd56518ce563fe1958515"
+  },
+  "modelId": {
+    "$oid": "6a7fd56518ce563fe1958519"
+  },
+  "slug": "hyundai-santa-fe-2019-0",
+  "year": 2019,
+  "price": 51000000,
+  "mileage": 94837,
+  "fuel": "Diesel",
+  "transmission": "Automatic",
+  "engine": "1.8L",
+  "bodyType": "SUV",
+  "color": "Silver",
+  "seats": 5,
+  "doors": 4,
+  "driveType": "AWD",
+  "location": "Kigali - Remera",
+  "condition": "Used",
+  "description": "A well-maintained 2019 Hyundai Santa Fe, imported and inspected. Full service history available on request.",
+  "features": [
+    "Air Conditioning",
+    "Bluetooth",
+    "Reverse Camera",
+    "Alloy Wheels",
+    "Cruise Control"
+  ],
+  "images": [
+    {
+      "url": "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&w=1200&q=80&Hyundai%20Santa%20Fe",
+      "isPrimary": true
+    }
+  ],
+  "status": "Available",
+  "featured": true,
+  "isDemo": true,
+  "views": 306,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-08-15T02:56:37.490Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-15T02:56:37.490Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a7fd56518ce563fe195856a"
+  },
+  "brandId": {
+    "$oid": "6a7fd56518ce563fe1958515"
+  },
+  "modelId": {
+    "$oid": "6a7fd56518ce563fe195851b"
+  },
+  "slug": "hyundai-creta-2021-0",
+  "year": 2021,
+  "price": 55000000,
+  "mileage": 23755,
+  "fuel": "Electric",
+  "transmission": "Automatic",
+  "engine": "1.9L",
+  "bodyType": "Crossover",
+  "color": "Pearl White",
+  "seats": 5,
+  "doors": 4,
+  "driveType": "FWD",
+  "location": "Kigali - Remera",
+  "condition": "Used",
+  "description": "A well-maintained 2021 Hyundai Creta, imported and inspected. Full service history available on request.",
+  "features": [
+    "Air Conditioning",
+    "Bluetooth",
+    "Reverse Camera",
+    "Alloy Wheels",
+    "Cruise Control"
+  ],
+  "images": [
+    {
+      "url": "https://images.unsplash.com/photo-1583121274602-3e2820c69888?auto=format&fit=crop&w=1200&q=80&Hyundai%20Creta",
+      "isPrimary": true
+    }
+  ],
+  "status": "Available",
+  "featured": true,
+  "isDemo": true,
+  "views": 415,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-08-15T02:56:37.490Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-15T03:02:01.101Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a7fd56518ce563fe195856b"
+  },
+  "brandId": {
+    "$oid": "6a7fd56518ce563fe1958515"
+  },
+  "modelId": {
+    "$oid": "6a7fd56518ce563fe195851b"
+  },
+  "slug": "hyundai-creta-2022-1",
+  "year": 2022,
+  "price": 33000000,
+  "mileage": 97037,
+  "fuel": "Diesel",
+  "transmission": "Manual",
+  "engine": "1.7L",
+  "bodyType": "Crossover",
+  "color": "Jet Black",
+  "seats": 5,
+  "doors": 4,
+  "driveType": "FWD",
+  "location": "Kigali - Kacyiru",
+  "condition": "Used",
+  "description": "A well-maintained 2022 Hyundai Creta, imported and inspected. Full service history available on request.",
+  "features": [
+    "Air Conditioning",
+    "Bluetooth",
+    "Reverse Camera",
+    "Alloy Wheels",
+    "Cruise Control"
+  ],
+  "images": [
+    {
+      "url": "https://images.unsplash.com/photo-1567818735868-e71b99932e29?auto=format&fit=crop&w=1200&q=80&Hyundai%20Creta",
+      "isPrimary": true
+    }
+  ],
+  "status": "Available",
+  "featured": false,
+  "isDemo": true,
+  "views": 42,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-08-15T02:56:37.490Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-15T02:56:37.490Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a7fd56518ce563fe195856c"
+  },
+  "brandId": {
+    "$oid": "6a7fd56518ce563fe1958515"
+  },
+  "modelId": {
+    "$oid": "6a7fd56518ce563fe195851d"
+  },
+  "slug": "hyundai-elantra-2023-0",
+  "year": 2023,
+  "price": 33000000,
+  "mileage": 89854,
+  "fuel": "Hybrid",
+  "transmission": "Automatic",
+  "engine": "2.1L",
+  "bodyType": "Sedan",
+  "color": "Jet Black",
+  "seats": 5,
+  "doors": 4,
+  "driveType": "FWD",
+  "location": "Kigali - Remera",
+  "condition": "Used",
+  "description": "A well-maintained 2023 Hyundai Elantra, imported and inspected. Full service history available on request.",
+  "features": [
+    "Air Conditioning",
+    "Bluetooth",
+    "Reverse Camera",
+    "Alloy Wheels",
+    "Cruise Control"
+  ],
+  "images": [
+    {
+      "url": "https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=1200&q=80&Hyundai%20Elantra",
+      "isPrimary": true
+    }
+  ],
+  "status": "Available",
+  "featured": true,
+  "isDemo": true,
+  "views": 273,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-08-15T02:56:37.490Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-15T02:56:37.490Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a7fd56518ce563fe195856d"
+  },
+  "brandId": {
+    "$oid": "6a7fd56518ce563fe1958515"
+  },
+  "modelId": {
+    "$oid": "6a7fd56518ce563fe195851d"
+  },
+  "slug": "hyundai-elantra-2020-1",
+  "year": 2020,
+  "price": 27000000,
+  "mileage": 64014,
+  "fuel": "Hybrid",
+  "transmission": "Automatic",
+  "engine": "3.2L",
+  "bodyType": "Sedan",
+  "color": "Jet Black",
+  "seats": 5,
+  "doors": 4,
+  "driveType": "FWD",
+  "location": "Kigali - Nyarutarama",
+  "condition": "Used",
+  "description": "A well-maintained 2020 Hyundai Elantra, imported and inspected. Full service history available on request.",
+  "features": [
+    "Air Conditioning",
+    "Bluetooth",
+    "Reverse Camera",
+    "Alloy Wheels",
+    "Cruise Control"
+  ],
+  "images": [
+    {
+      "url": "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?auto=format&fit=crop&w=1200&q=80&Hyundai%20Elantra",
+      "isPrimary": true
+    }
+  ],
+  "status": "Available",
+  "featured": false,
+  "isDemo": true,
+  "views": 291,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-08-15T02:56:37.490Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-15T02:56:37.490Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a7fd56518ce563fe195856e"
+  },
+  "brandId": {
+    "$oid": "6a7fd56518ce563fe195851f"
+  },
+  "modelId": {
+    "$oid": "6a7fd56518ce563fe1958521"
+  },
+  "slug": "kia-sportage-2023-0",
+  "year": 2023,
+  "price": 64000000,
+  "mileage": 85811,
+  "fuel": "Hybrid",
+  "transmission": "Manual",
+  "engine": "1.8L",
+  "bodyType": "SUV",
+  "color": "Deep Blue",
+  "seats": 7,
+  "doors": 4,
+  "driveType": "AWD",
+  "location": "Kigali - Kimironko",
+  "condition": "Used",
+  "description": "A well-maintained 2023 Kia Sportage, imported and inspected. Full service history available on request.",
+  "features": [
+    "Air Conditioning",
+    "Bluetooth",
+    "Reverse Camera",
+    "Alloy Wheels",
+    "Cruise Control"
+  ],
+  "images": [
+    {
+      "url": "https://images.unsplash.com/photo-1553440569-bcc63803a83d?auto=format&fit=crop&w=1200&q=80&Kia%20Sportage",
+      "isPrimary": true
+    }
+  ],
+  "status": "Available",
+  "featured": true,
+  "isDemo": true,
+  "views": 256,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-08-15T02:56:37.490Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-15T02:56:37.490Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a7fd56518ce563fe195856f"
+  },
+  "brandId": {
+    "$oid": "6a7fd56518ce563fe195851f"
+  },
+  "modelId": {
+    "$oid": "6a7fd56518ce563fe1958521"
+  },
+  "slug": "kia-sportage-2020-1",
+  "year": 2020,
+  "price": 51000000,
+  "mileage": 102317,
+  "fuel": "Hybrid",
+  "transmission": "Automatic",
+  "engine": "2.2L",
+  "bodyType": "SUV",
+  "color": "Graphite Grey",
+  "seats": 5,
+  "doors": 4,
+  "driveType": "AWD",
+  "location": "Kigali - Remera",
+  "condition": "Used",
+  "description": "A well-maintained 2020 Kia Sportage, imported and inspected. Full service history available on request.",
+  "features": [
+    "Air Conditioning",
+    "Bluetooth",
+    "Reverse Camera",
+    "Alloy Wheels",
+    "Cruise Control"
+  ],
+  "images": [
+    {
+      "url": "https://images.unsplash.com/photo-1494905998402-395d579af36f?auto=format&fit=crop&w=1200&q=80&Kia%20Sportage",
+      "isPrimary": true
+    }
+  ],
+  "status": "Available",
+  "featured": false,
+  "isDemo": true,
+  "views": 326,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-08-15T02:56:37.490Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-15T02:56:37.490Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a7fd56518ce563fe1958570"
+  },
+  "brandId": {
+    "$oid": "6a7fd56518ce563fe195851f"
+  },
+  "modelId": {
+    "$oid": "6a7fd56518ce563fe1958523"
+  },
+  "slug": "kia-sorento-2022-0",
+  "year": 2022,
+  "price": 34000000,
+  "mileage": 58501,
+  "fuel": "Diesel",
+  "transmission": "Manual",
+  "engine": "1.5L",
+  "bodyType": "SUV",
+  "color": "Pearl White",
+  "seats": 5,
+  "doors": 4,
+  "driveType": "4WD",
+  "location": "Kigali - Kimironko",
+  "condition": "Used",
+  "description": "A well-maintained 2022 Kia Sorento, imported and inspected. Full service history available on request.",
+  "features": [
+    "Air Conditioning",
+    "Bluetooth",
+    "Reverse Camera",
+    "Alloy Wheels",
+    "Cruise Control"
+  ],
+  "images": [
+    {
+      "url": "https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=1200&q=80&Kia%20Sorento",
+      "isPrimary": true
+    }
+  ],
+  "status": "Available",
+  "featured": false,
+  "isDemo": true,
+  "views": 297,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-08-15T02:56:37.490Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-15T02:56:37.490Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a7fd56518ce563fe1958571"
+  },
+  "brandId": {
+    "$oid": "6a7fd56518ce563fe195851f"
+  },
+  "modelId": {
+    "$oid": "6a7fd56518ce563fe1958523"
+  },
+  "slug": "kia-sorento-2021-1",
+  "year": 2021,
+  "price": 9000000,
+  "mileage": 28597,
+  "fuel": "Petrol",
+  "transmission": "Manual",
+  "engine": "2.8L",
+  "bodyType": "SUV",
+  "color": "Red",
+  "seats": 7,
+  "doors": 4,
+  "driveType": "4WD",
+  "location": "Kigali - Remera",
+  "condition": "Used",
+  "description": "A well-maintained 2021 Kia Sorento, imported and inspected. Full service history available on request.",
+  "features": [
+    "Air Conditioning",
+    "Bluetooth",
+    "Reverse Camera",
+    "Alloy Wheels",
+    "Cruise Control"
+  ],
+  "images": [
+    {
+      "url": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1200&q=80&Kia%20Sorento",
+      "isPrimary": true
+    }
+  ],
+  "status": "Available",
+  "featured": false,
+  "isDemo": true,
+  "views": 33,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-08-15T02:56:37.490Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-15T02:56:37.490Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a7fd56518ce563fe1958572"
+  },
+  "brandId": {
+    "$oid": "6a7fd56518ce563fe195851f"
+  },
+  "modelId": {
+    "$oid": "6a7fd56518ce563fe1958525"
+  },
+  "slug": "kia-seltos-2019-0",
+  "year": 2019,
+  "price": 54000000,
+  "mileage": 8880,
+  "fuel": "Diesel",
+  "transmission": "Automatic",
+  "engine": "1.5L",
+  "bodyType": "Crossover",
+  "color": "Silver",
+  "seats": 5,
+  "doors": 4,
+  "driveType": "FWD",
+  "location": "Kigali - Nyarutarama",
+  "condition": "Used",
+  "description": "A well-maintained 2019 Kia Seltos, imported and inspected. Full service history available on request.",
+  "features": [
+    "Air Conditioning",
+    "Bluetooth",
+    "Reverse Camera",
+    "Alloy Wheels",
+    "Cruise Control"
+  ],
+  "images": [
+    {
+      "url": "https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=1200&q=80&Kia%20Seltos",
+      "isPrimary": true
+    }
+  ],
+  "status": "Available",
+  "featured": false,
+  "isDemo": true,
+  "views": 162,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-08-15T02:56:37.490Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-15T02:56:37.490Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a7fd56518ce563fe1958573"
+  },
+  "brandId": {
+    "$oid": "6a7fd56518ce563fe1958527"
+  },
+  "modelId": {
+    "$oid": "6a7fd56518ce563fe1958529"
+  },
+  "slug": "honda-cr-v-2021-0",
+  "year": 2021,
+  "price": 17000000,
+  "mileage": 107539,
+  "fuel": "Petrol",
+  "transmission": "Automatic",
+  "engine": "2.9L",
+  "bodyType": "SUV",
+  "color": "Graphite Grey",
+  "seats": 5,
+  "doors": 4,
+  "driveType": "4WD",
+  "location": "Kigali - Kimironko",
+  "condition": "Used",
+  "description": "A well-maintained 2021 Honda CR-V, imported and inspected. Full service history available on request.",
+  "features": [
+    "Air Conditioning",
+    "Bluetooth",
+    "Reverse Camera",
+    "Alloy Wheels",
+    "Cruise Control"
+  ],
+  "images": [
+    {
+      "url": "https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?auto=format&fit=crop&w=1200&q=80&Honda%20CR-V",
+      "isPrimary": true
+    }
+  ],
+  "status": "Available",
+  "featured": false,
+  "isDemo": true,
+  "views": 17,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-08-15T02:56:37.491Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-15T02:56:37.491Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a7fd56518ce563fe1958574"
+  },
+  "brandId": {
+    "$oid": "6a7fd56518ce563fe1958527"
+  },
+  "modelId": {
+    "$oid": "6a7fd56518ce563fe1958529"
+  },
+  "slug": "honda-cr-v-2023-1",
+  "year": 2023,
+  "price": 12000000,
+  "mileage": 50545,
+  "fuel": "Hybrid",
+  "transmission": "Manual",
+  "engine": "3.5L",
+  "bodyType": "SUV",
+  "color": "Silver",
+  "seats": 7,
+  "doors": 4,
+  "driveType": "4WD",
+  "location": "Kigali - Nyarutarama",
+  "condition": "Used",
+  "description": "A well-maintained 2023 Honda CR-V, imported and inspected. Full service history available on request.",
+  "features": [
+    "Air Conditioning",
+    "Bluetooth",
+    "Reverse Camera",
+    "Alloy Wheels",
+    "Cruise Control"
+  ],
+  "images": [
+    {
+      "url": "https://images.unsplash.com/photo-1583121274602-3e2820c69888?auto=format&fit=crop&w=1200&q=80&Honda%20CR-V",
+      "isPrimary": true
+    }
+  ],
+  "status": "Available",
+  "featured": false,
+  "isDemo": true,
+  "views": 186,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-08-15T02:56:37.491Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-15T02:56:37.491Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a7fd56518ce563fe1958575"
+  },
+  "brandId": {
+    "$oid": "6a7fd56518ce563fe1958527"
+  },
+  "modelId": {
+    "$oid": "6a7fd56518ce563fe195852b"
+  },
+  "slug": "honda-vezel-2020-0",
+  "year": 2020,
+  "price": 63000000,
+  "mileage": 83552,
+  "fuel": "Diesel",
+  "transmission": "Automatic",
+  "engine": "2.7L",
+  "bodyType": "Crossover",
+  "color": "Graphite Grey",
+  "seats": 5,
+  "doors": 4,
+  "driveType": "FWD",
+  "location": "Kigali - Remera",
+  "condition": "Used",
+  "description": "A well-maintained 2020 Honda Vezel, imported and inspected. Full service history available on request.",
+  "features": [
+    "Air Conditioning",
+    "Bluetooth",
+    "Reverse Camera",
+    "Alloy Wheels",
+    "Cruise Control"
+  ],
+  "images": [
+    {
+      "url": "https://images.unsplash.com/photo-1580273916550-e323be2ae537?auto=format&fit=crop&w=1200&q=80&Honda%20Vezel",
+      "isPrimary": true
+    }
+  ],
+  "status": "Available",
+  "featured": true,
+  "isDemo": true,
+  "views": 199,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-08-15T02:56:37.491Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-15T02:56:37.491Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a7fd56518ce563fe1958576"
+  },
+  "brandId": {
+    "$oid": "6a7fd56518ce563fe1958527"
+  },
+  "modelId": {
+    "$oid": "6a7fd56518ce563fe195852b"
+  },
+  "slug": "honda-vezel-2022-1",
+  "year": 2022,
+  "price": 29000000,
+  "mileage": 14501,
+  "fuel": "Petrol",
+  "transmission": "Automatic",
+  "engine": "2.3L",
+  "bodyType": "Crossover",
+  "color": "Jet Black",
+  "seats": 7,
+  "doors": 4,
+  "driveType": "FWD",
+  "location": "Kigali - Kacyiru",
+  "condition": "Used",
+  "description": "A well-maintained 2022 Honda Vezel, imported and inspected. Full service history available on request.",
+  "features": [
+    "Air Conditioning",
+    "Bluetooth",
+    "Reverse Camera",
+    "Alloy Wheels",
+    "Cruise Control"
+  ],
+  "images": [
+    {
+      "url": "https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=1200&q=80&Honda%20Vezel",
+      "isPrimary": true
+    }
+  ],
+  "status": "Available",
+  "featured": false,
+  "isDemo": true,
+  "views": 252,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-08-15T02:56:37.491Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-15T02:56:37.491Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a7fd56518ce563fe1958577"
+  },
+  "brandId": {
+    "$oid": "6a7fd56518ce563fe1958527"
+  },
+  "modelId": {
+    "$oid": "6a7fd56518ce563fe195852d"
+  },
+  "slug": "honda-civic-2021-0",
+  "year": 2021,
+  "price": 9000000,
+  "mileage": 88510,
+  "fuel": "Petrol",
+  "transmission": "Automatic",
+  "engine": "1.7L",
+  "bodyType": "Sedan",
+  "color": "Jet Black",
+  "seats": 5,
+  "doors": 4,
+  "driveType": "FWD",
+  "location": "Kigali - Nyarutarama",
+  "condition": "Used",
+  "description": "A well-maintained 2021 Honda Civic, imported and inspected. Full service history available on request.",
+  "features": [
+    "Air Conditioning",
+    "Bluetooth",
+    "Reverse Camera",
+    "Alloy Wheels",
+    "Cruise Control"
+  ],
+  "images": [
+    {
+      "url": "https://images.unsplash.com/photo-1580273916550-e323be2ae537?auto=format&fit=crop&w=1200&q=80&Honda%20Civic",
+      "isPrimary": true
+    }
+  ],
+  "status": "Available",
+  "featured": false,
+  "isDemo": true,
+  "views": 486,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-08-15T02:56:37.491Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-15T02:56:37.491Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a7fd56518ce563fe1958578"
+  },
+  "brandId": {
+    "$oid": "6a7fd56518ce563fe1958527"
+  },
+  "modelId": {
+    "$oid": "6a7fd56518ce563fe195852d"
+  },
+  "slug": "honda-civic-2019-1",
+  "year": 2019,
+  "price": 51000000,
+  "mileage": 92299,
+  "fuel": "Electric",
+  "transmission": "Manual",
+  "engine": "2.2L",
+  "bodyType": "Sedan",
+  "color": "Jet Black",
+  "seats": 5,
+  "doors": 4,
+  "driveType": "FWD",
+  "location": "Kigali - Nyarutarama",
+  "condition": "Used",
+  "description": "A well-maintained 2019 Honda Civic, imported and inspected. Full service history available on request.",
+  "features": [
+    "Air Conditioning",
+    "Bluetooth",
+    "Reverse Camera",
+    "Alloy Wheels",
+    "Cruise Control"
+  ],
+  "images": [
+    {
+      "url": "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=1200&q=80&Honda%20Civic",
+      "isPrimary": true
+    }
+  ],
+  "status": "Available",
+  "featured": false,
+  "isDemo": true,
+  "views": 215,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-08-15T02:56:37.491Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-15T02:56:37.491Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a7fd56518ce563fe1958579"
+  },
+  "brandId": {
+    "$oid": "6a7fd56518ce563fe195852f"
+  },
+  "modelId": {
+    "$oid": "6a7fd56518ce563fe1958531"
+  },
+  "slug": "lexus-rx-2023-0",
+  "year": 2023,
+  "price": 48000000,
+  "mileage": 56570,
+  "fuel": "Electric",
+  "transmission": "Manual",
+  "engine": "2.8L",
+  "bodyType": "SUV",
+  "color": "Silver",
+  "seats": 5,
+  "doors": 4,
+  "driveType": "4WD",
+  "location": "Kigali - Kimironko",
+  "condition": "Used",
+  "description": "A well-maintained 2023 Lexus RX, imported and inspected. Full service history available on request.",
+  "features": [
+    "Air Conditioning",
+    "Bluetooth",
+    "Reverse Camera",
+    "Alloy Wheels",
+    "Cruise Control"
+  ],
+  "images": [
+    {
+      "url": "https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=1200&q=80&Lexus%20RX",
+      "isPrimary": true
+    }
+  ],
+  "status": "Available",
+  "featured": false,
+  "isDemo": true,
+  "views": 256,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-08-15T02:56:37.491Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-15T02:56:37.491Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a7fd56518ce563fe195857a"
+  },
+  "brandId": {
+    "$oid": "6a7fd56518ce563fe195852f"
+  },
+  "modelId": {
+    "$oid": "6a7fd56518ce563fe1958531"
+  },
+  "slug": "lexus-rx-2020-1",
+  "year": 2020,
+  "price": 45000000,
+  "mileage": 71779,
+  "fuel": "Hybrid",
+  "transmission": "Manual",
+  "engine": "2.3L",
+  "bodyType": "SUV",
+  "color": "Pearl White",
+  "seats": 5,
+  "doors": 4,
+  "driveType": "AWD",
+  "location": "Kigali - Remera",
+  "condition": "Used",
+  "description": "A well-maintained 2020 Lexus RX, imported and inspected. Full service history available on request.",
+  "features": [
+    "Air Conditioning",
+    "Bluetooth",
+    "Reverse Camera",
+    "Alloy Wheels",
+    "Cruise Control"
+  ],
+  "images": [
+    {
+      "url": "https://images.unsplash.com/photo-1583121274602-3e2820c69888?auto=format&fit=crop&w=1200&q=80&Lexus%20RX",
+      "isPrimary": true
+    }
+  ],
+  "status": "Available",
+  "featured": false,
+  "isDemo": true,
+  "views": 487,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-08-15T02:56:37.491Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-15T02:56:37.491Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a7fd56518ce563fe195857b"
+  },
+  "brandId": {
+    "$oid": "6a7fd56518ce563fe195852f"
+  },
+  "modelId": {
+    "$oid": "6a7fd56518ce563fe1958533"
+  },
+  "slug": "lexus-nx-2020-0",
+  "year": 2020,
+  "price": 62000000,
+  "mileage": 12877,
+  "fuel": "Electric",
+  "transmission": "Automatic",
+  "engine": "2.3L",
+  "bodyType": "SUV",
+  "color": "Silver",
+  "seats": 7,
+  "doors": 4,
+  "driveType": "4WD",
+  "location": "Kigali - Remera",
+  "condition": "Used",
+  "description": "A well-maintained 2020 Lexus NX, imported and inspected. Full service history available on request.",
+  "features": [
+    "Air Conditioning",
+    "Bluetooth",
+    "Reverse Camera",
+    "Alloy Wheels",
+    "Cruise Control"
+  ],
+  "images": [
+    {
+      "url": "https://images.unsplash.com/photo-1580273916550-e323be2ae537?auto=format&fit=crop&w=1200&q=80&Lexus%20NX",
+      "isPrimary": true
+    }
+  ],
+  "status": "Available",
+  "featured": true,
+  "isDemo": true,
+  "views": 97,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-08-15T02:56:37.491Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-15T02:56:37.491Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a7fd56518ce563fe195857c"
+  },
+  "brandId": {
+    "$oid": "6a7fd56518ce563fe195852f"
+  },
+  "modelId": {
+    "$oid": "6a7fd56518ce563fe1958535"
+  },
+  "slug": "lexus-lx-2018-0",
+  "year": 2018,
+  "price": 65000000,
+  "mileage": 79005,
+  "fuel": "Hybrid",
+  "transmission": "Manual",
+  "engine": "1.8L",
+  "bodyType": "SUV",
+  "color": "Graphite Grey",
+  "seats": 7,
+  "doors": 4,
+  "driveType": "4WD",
+  "location": "Kigali - Remera",
+  "condition": "Used",
+  "description": "A well-maintained 2018 Lexus LX, imported and inspected. Full service history available on request.",
+  "features": [
+    "Air Conditioning",
+    "Bluetooth",
+    "Reverse Camera",
+    "Alloy Wheels",
+    "Cruise Control"
+  ],
+  "images": [
+    {
+      "url": "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?auto=format&fit=crop&w=1200&q=80&Lexus%20LX",
+      "isPrimary": true
+    }
+  ],
+  "status": "Available",
+  "featured": false,
+  "isDemo": true,
+  "views": 221,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-08-15T02:56:37.491Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-15T02:56:37.491Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a7fd56518ce563fe195857d"
+  },
+  "brandId": {
+    "$oid": "6a7fd56518ce563fe1958537"
+  },
+  "modelId": {
+    "$oid": "6a7fd56518ce563fe1958539"
+  },
+  "slug": "nissan-x-trail-2021-0",
+  "year": 2021,
+  "price": 15000000,
+  "mileage": 80579,
+  "fuel": "Diesel",
+  "transmission": "Manual",
+  "engine": "2.1L",
+  "bodyType": "SUV",
+  "color": "Deep Blue",
+  "seats": 7,
+  "doors": 4,
+  "driveType": "4WD",
+  "location": "Kigali - Kacyiru",
+  "condition": "Used",
+  "description": "A well-maintained 2021 Nissan X-Trail, imported and inspected. Full service history available on request.",
+  "features": [
+    "Air Conditioning",
+    "Bluetooth",
+    "Reverse Camera",
+    "Alloy Wheels",
+    "Cruise Control"
+  ],
+  "images": [
+    {
+      "url": "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=1200&q=80&Nissan%20X-Trail",
+      "isPrimary": true
+    }
+  ],
+  "status": "Available",
+  "featured": false,
+  "isDemo": true,
+  "views": 17,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-08-15T02:56:37.491Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-15T02:56:37.491Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a7fd56518ce563fe195857e"
+  },
+  "brandId": {
+    "$oid": "6a7fd56518ce563fe1958537"
+  },
+  "modelId": {
+    "$oid": "6a7fd56518ce563fe1958539"
+  },
+  "slug": "nissan-x-trail-2023-1",
+  "year": 2023,
+  "price": 37000000,
+  "mileage": 31621,
+  "fuel": "Petrol",
+  "transmission": "Automatic",
+  "engine": "3.2L",
+  "bodyType": "SUV",
+  "color": "Graphite Grey",
+  "seats": 5,
+  "doors": 4,
+  "driveType": "AWD",
+  "location": "Kigali - Remera",
+  "condition": "Used",
+  "description": "A well-maintained 2023 Nissan X-Trail, imported and inspected. Full service history available on request.",
+  "features": [
+    "Air Conditioning",
+    "Bluetooth",
+    "Reverse Camera",
+    "Alloy Wheels",
+    "Cruise Control"
+  ],
+  "images": [
+    {
+      "url": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=1200&q=80&Nissan%20X-Trail",
+      "isPrimary": true
+    }
+  ],
+  "status": "Available",
+  "featured": false,
+  "isDemo": true,
+  "views": 234,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-08-15T02:56:37.491Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-15T02:56:37.491Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a7fd56518ce563fe195857f"
+  },
+  "brandId": {
+    "$oid": "6a7fd56518ce563fe1958537"
+  },
+  "modelId": {
+    "$oid": "6a7fd56518ce563fe195853b"
+  },
+  "slug": "nissan-patrol-2018-0",
+  "year": 2018,
+  "price": 12000000,
+  "mileage": 28455,
+  "fuel": "Electric",
+  "transmission": "Automatic",
+  "engine": "3.2L",
+  "bodyType": "SUV",
+  "color": "Red",
+  "seats": 5,
+  "doors": 4,
+  "driveType": "AWD",
+  "location": "Kigali - Remera",
+  "condition": "Used",
+  "description": "A well-maintained 2018 Nissan Patrol, imported and inspected. Full service history available on request.",
+  "features": [
+    "Air Conditioning",
+    "Bluetooth",
+    "Reverse Camera",
+    "Alloy Wheels",
+    "Cruise Control"
+  ],
+  "images": [
+    {
+      "url": "https://images.unsplash.com/photo-1580273916550-e323be2ae537?auto=format&fit=crop&w=1200&q=80&Nissan%20Patrol",
+      "isPrimary": true
+    }
+  ],
+  "status": "Available",
+  "featured": true,
+  "isDemo": true,
+  "views": 40,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-08-15T02:56:37.491Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-15T02:56:37.491Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a7fd56518ce563fe1958580"
+  },
+  "brandId": {
+    "$oid": "6a7fd56518ce563fe195853d"
+  },
+  "modelId": {
+    "$oid": "6a7fd56518ce563fe195853f"
+  },
+  "slug": "suzuki-vitara-2022-0",
+  "year": 2022,
+  "price": 43000000,
+  "mileage": 44584,
+  "fuel": "Electric",
+  "transmission": "Automatic",
+  "engine": "3.1L",
+  "bodyType": "SUV",
+  "color": "Jet Black",
+  "seats": 5,
+  "doors": 4,
+  "driveType": "AWD",
+  "location": "Kigali - Kimironko",
+  "condition": "Used",
+  "description": "A well-maintained 2022 Suzuki Vitara, imported and inspected. Full service history available on request.",
+  "features": [
+    "Air Conditioning",
+    "Bluetooth",
+    "Reverse Camera",
+    "Alloy Wheels",
+    "Cruise Control"
+  ],
+  "images": [
+    {
+      "url": "https://images.unsplash.com/photo-1567818735868-e71b99932e29?auto=format&fit=crop&w=1200&q=80&Suzuki%20Vitara",
+      "isPrimary": true
+    }
+  ],
+  "status": "Available",
+  "featured": false,
+  "isDemo": true,
+  "views": 109,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-08-15T02:56:37.491Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-15T02:56:37.491Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a7fd56518ce563fe1958581"
+  },
+  "brandId": {
+    "$oid": "6a7fd56518ce563fe195853d"
+  },
+  "modelId": {
+    "$oid": "6a7fd56518ce563fe1958541"
+  },
+  "slug": "suzuki-jimny-2020-0",
+  "year": 2020,
+  "price": 50000000,
+  "mileage": 67743,
+  "fuel": "Petrol",
+  "transmission": "Manual",
+  "engine": "2.2L",
+  "bodyType": "SUV",
+  "color": "Deep Blue",
+  "seats": 7,
+  "doors": 4,
+  "driveType": "AWD",
+  "location": "Kigali - Kimironko",
+  "condition": "Used",
+  "description": "A well-maintained 2020 Suzuki Jimny, imported and inspected. Full service history available on request.",
+  "features": [
+    "Air Conditioning",
+    "Bluetooth",
+    "Reverse Camera",
+    "Alloy Wheels",
+    "Cruise Control"
+  ],
+  "images": [
+    {
+      "url": "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&w=1200&q=80&Suzuki%20Jimny",
+      "isPrimary": true
+    }
+  ],
+  "status": "Available",
+  "featured": false,
+  "isDemo": true,
+  "views": 357,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-08-15T02:56:37.491Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-15T02:56:37.491Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a7fd56518ce563fe1958582"
+  },
+  "brandId": {
+    "$oid": "6a7fd56518ce563fe195853d"
+  },
+  "modelId": {
+    "$oid": "6a7fd56518ce563fe1958541"
+  },
+  "slug": "suzuki-jimny-2023-1",
+  "year": 2023,
+  "price": 28000000,
+  "mileage": 98190,
+  "fuel": "Hybrid",
+  "transmission": "Automatic",
+  "engine": "2.5L",
+  "bodyType": "SUV",
+  "color": "Red",
+  "seats": 7,
+  "doors": 4,
+  "driveType": "AWD",
+  "location": "Kigali - Kacyiru",
+  "condition": "Used",
+  "description": "A well-maintained 2023 Suzuki Jimny, imported and inspected. Full service history available on request.",
+  "features": [
+    "Air Conditioning",
+    "Bluetooth",
+    "Reverse Camera",
+    "Alloy Wheels",
+    "Cruise Control"
+  ],
+  "images": [
+    {
+      "url": "https://images.unsplash.com/photo-1583121274602-3e2820c69888?auto=format&fit=crop&w=1200&q=80&Suzuki%20Jimny",
+      "isPrimary": true
+    }
+  ],
+  "status": "Available",
+  "featured": false,
+  "isDemo": true,
+  "views": 127,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-08-15T02:56:37.491Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-15T02:56:37.491Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a7fd56518ce563fe1958583"
+  },
+  "brandId": {
+    "$oid": "6a7fd56518ce563fe195853d"
+  },
+  "modelId": {
+    "$oid": "6a7fd56518ce563fe1958543"
+  },
+  "slug": "suzuki-swift-2023-0",
+  "year": 2023,
+  "price": 46000000,
+  "mileage": 50169,
+  "fuel": "Diesel",
+  "transmission": "Manual",
+  "engine": "3.5L",
+  "bodyType": "Hatchback",
+  "color": "Red",
+  "seats": 7,
+  "doors": 4,
+  "driveType": "FWD",
+  "location": "Kigali - Kimironko",
+  "condition": "Used",
+  "description": "A well-maintained 2023 Suzuki Swift, imported and inspected. Full service history available on request.",
+  "features": [
+    "Air Conditioning",
+    "Bluetooth",
+    "Reverse Camera",
+    "Alloy Wheels",
+    "Cruise Control"
+  ],
+  "images": [
+    {
+      "url": "https://images.unsplash.com/photo-1494905998402-395d579af36f?auto=format&fit=crop&w=1200&q=80&Suzuki%20Swift",
+      "isPrimary": true
+    }
+  ],
+  "status": "Available",
+  "featured": false,
+  "isDemo": true,
+  "views": 243,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-08-15T02:56:37.491Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-15T02:56:37.491Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a7fd56518ce563fe1958584"
+  },
+  "brandId": {
+    "$oid": "6a7fd56518ce563fe195853d"
+  },
+  "modelId": {
+    "$oid": "6a7fd56518ce563fe1958543"
+  },
+  "slug": "suzuki-swift-2018-1",
+  "year": 2018,
+  "price": 8000000,
+  "mileage": 5006,
+  "fuel": "Hybrid",
+  "transmission": "Automatic",
+  "engine": "2.8L",
+  "bodyType": "Hatchback",
+  "color": "Jet Black",
+  "seats": 5,
+  "doors": 4,
+  "driveType": "FWD",
+  "location": "Kigali - Remera",
+  "condition": "Used",
+  "description": "A well-maintained 2018 Suzuki Swift, imported and inspected. Full service history available on request.",
+  "features": [
+    "Air Conditioning",
+    "Bluetooth",
+    "Reverse Camera",
+    "Alloy Wheels",
+    "Cruise Control"
+  ],
+  "images": [
+    {
+      "url": "https://images.unsplash.com/photo-1494905998402-395d579af36f?auto=format&fit=crop&w=1200&q=80&Suzuki%20Swift",
+      "isPrimary": true
+    }
+  ],
+  "status": "Available",
+  "featured": false,
+  "isDemo": true,
+  "views": 285,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-08-15T02:56:37.492Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-15T02:56:37.492Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a7fd56518ce563fe1958585"
+  },
+  "brandId": {
+    "$oid": "6a7fd56518ce563fe1958545"
+  },
+  "modelId": {
+    "$oid": "6a7fd56518ce563fe1958547"
+  },
+  "slug": "mercedes-benz-glc-2021-0",
+  "year": 2021,
+  "price": 32000000,
+  "mileage": 104364,
+  "fuel": "Electric",
+  "transmission": "Automatic",
+  "engine": "2.6L",
+  "bodyType": "SUV",
+  "color": "Red",
+  "seats": 5,
+  "doors": 4,
+  "driveType": "AWD",
+  "location": "Kigali - Remera",
+  "condition": "Used",
+  "description": "A well-maintained 2021 Mercedes-Benz GLC, imported and inspected. Full service history available on request.",
+  "features": [
+    "Air Conditioning",
+    "Bluetooth",
+    "Reverse Camera",
+    "Alloy Wheels",
+    "Cruise Control"
+  ],
+  "images": [
+    {
+      "url": "https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?auto=format&fit=crop&w=1200&q=80&Mercedes-Benz%20GLC",
+      "isPrimary": true
+    }
+  ],
+  "status": "Available",
+  "featured": false,
+  "isDemo": true,
+  "views": 114,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-08-15T02:56:37.492Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-15T02:56:37.492Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a7fd56518ce563fe1958586"
+  },
+  "brandId": {
+    "$oid": "6a7fd56518ce563fe1958545"
+  },
+  "modelId": {
+    "$oid": "6a7fd56518ce563fe1958549"
+  },
+  "slug": "mercedes-benz-c-class-2018-0",
+  "year": 2018,
+  "price": 56000000,
+  "mileage": 47658,
+  "fuel": "Electric",
+  "transmission": "Manual",
+  "engine": "3.0L",
+  "bodyType": "Sedan",
+  "color": "Deep Blue",
+  "seats": 5,
+  "doors": 4,
+  "driveType": "FWD",
+  "location": "Kigali - Kacyiru",
+  "condition": "Used",
+  "description": "A well-maintained 2018 Mercedes-Benz C-Class, imported and inspected. Full service history available on request.",
+  "features": [
+    "Air Conditioning",
+    "Bluetooth",
+    "Reverse Camera",
+    "Alloy Wheels",
+    "Cruise Control"
+  ],
+  "images": [
+    {
+      "url": "https://images.unsplash.com/photo-1580273916550-e323be2ae537?auto=format&fit=crop&w=1200&q=80&Mercedes-Benz%20C-Class",
+      "isPrimary": true
+    }
+  ],
+  "status": "Available",
+  "featured": false,
+  "isDemo": true,
+  "views": 43,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-08-15T02:56:37.492Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-15T02:56:37.492Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a7fd56518ce563fe1958587"
+  },
+  "brandId": {
+    "$oid": "6a7fd56518ce563fe1958545"
+  },
+  "modelId": {
+    "$oid": "6a7fd56518ce563fe195854b"
+  },
+  "slug": "mercedes-benz-e-class-2020-0",
+  "year": 2020,
+  "price": 59000000,
+  "mileage": 104694,
+  "fuel": "Hybrid",
+  "transmission": "Automatic",
+  "engine": "2.2L",
+  "bodyType": "Sedan",
+  "color": "Graphite Grey",
+  "seats": 5,
+  "doors": 4,
+  "driveType": "FWD",
+  "location": "Kigali - Kacyiru",
+  "condition": "Used",
+  "description": "A well-maintained 2020 Mercedes-Benz E-Class, imported and inspected. Full service history available on request.",
+  "features": [
+    "Air Conditioning",
+    "Bluetooth",
+    "Reverse Camera",
+    "Alloy Wheels",
+    "Cruise Control"
+  ],
+  "images": [
+    {
+      "url": "https://images.unsplash.com/photo-1583121274602-3e2820c69888?auto=format&fit=crop&w=1200&q=80&Mercedes-Benz%20E-Class",
+      "isPrimary": true
+    }
+  ],
+  "status": "Available",
+  "featured": false,
+  "isDemo": true,
+  "views": 138,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-08-15T02:56:37.492Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-15T02:56:37.492Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a7fd56518ce563fe1958588"
+  },
+  "brandId": {
+    "$oid": "6a7fd56518ce563fe195854d"
+  },
+  "modelId": {
+    "$oid": "6a7fd56518ce563fe195854f"
+  },
+  "slug": "bmw-x3-2023-0",
+  "year": 2023,
+  "price": 64000000,
+  "mileage": 40701,
+  "fuel": "Petrol",
+  "transmission": "Automatic",
+  "engine": "3.5L",
+  "bodyType": "SUV",
+  "color": "Deep Blue",
+  "seats": 5,
+  "doors": 4,
+  "driveType": "4WD",
+  "location": "Kigali - Remera",
+  "condition": "Used",
+  "description": "A well-maintained 2023 BMW X3, imported and inspected. Full service history available on request.",
+  "features": [
+    "Air Conditioning",
+    "Bluetooth",
+    "Reverse Camera",
+    "Alloy Wheels",
+    "Cruise Control"
+  ],
+  "images": [
+    {
+      "url": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=1200&q=80&BMW%20X3",
+      "isPrimary": true
+    }
+  ],
+  "status": "Available",
+  "featured": false,
+  "isDemo": true,
+  "views": 19,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-08-15T02:56:37.492Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-15T02:56:37.492Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a7fd56518ce563fe1958589"
+  },
+  "brandId": {
+    "$oid": "6a7fd56518ce563fe195854d"
+  },
+  "modelId": {
+    "$oid": "6a7fd56518ce563fe1958551"
+  },
+  "slug": "bmw-x5-2022-0",
+  "year": 2022,
+  "price": 48000000,
+  "mileage": 28331,
+  "fuel": "Electric",
+  "transmission": "Manual",
+  "engine": "2.6L",
+  "bodyType": "SUV",
+  "color": "Pearl White",
+  "seats": 5,
+  "doors": 4,
+  "driveType": "AWD",
+  "location": "Kigali - Nyarutarama",
+  "condition": "Used",
+  "description": "A well-maintained 2022 BMW X5, imported and inspected. Full service history available on request.",
+  "features": [
+    "Air Conditioning",
+    "Bluetooth",
+    "Reverse Camera",
+    "Alloy Wheels",
+    "Cruise Control"
+  ],
+  "images": [
+    {
+      "url": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1200&q=80&BMW%20X5",
+      "isPrimary": true
+    }
+  ],
+  "status": "Sold",
+  "featured": false,
+  "isDemo": true,
+  "views": 141,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-08-15T02:56:37.492Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-15T03:02:59.522Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a7fd56518ce563fe195858a"
+  },
+  "brandId": {
+    "$oid": "6a7fd56518ce563fe1958553"
+  },
+  "modelId": {
+    "$oid": "6a7fd56518ce563fe1958555"
+  },
+  "slug": "byd-atto-3-2020-0",
+  "year": 2020,
+  "price": 63000000,
+  "mileage": 88889,
+  "fuel": "Hybrid",
+  "transmission": "Automatic",
+  "engine": "3.2L",
+  "bodyType": "Crossover",
+  "color": "Pearl White",
+  "seats": 5,
+  "doors": 4,
+  "driveType": "FWD",
+  "location": "Kigali - Nyarutarama",
+  "condition": "Used",
+  "description": "A well-maintained 2020 BYD Atto 3, imported and inspected. Full service history available on request.",
+  "features": [
+    "Air Conditioning",
+    "Bluetooth",
+    "Reverse Camera",
+    "Alloy Wheels",
+    "Cruise Control"
+  ],
+  "images": [
+    {
+      "url": "https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=1200&q=80&BYD%20Atto%203",
+      "isPrimary": true
+    }
+  ],
+  "status": "Available",
+  "featured": false,
+  "isDemo": true,
+  "views": 411,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-08-15T02:56:37.492Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-15T02:56:37.492Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a7fd56518ce563fe195858b"
+  },
+  "brandId": {
+    "$oid": "6a7fd56518ce563fe1958553"
+  },
+  "modelId": {
+    "$oid": "6a7fd56518ce563fe1958555"
+  },
+  "slug": "byd-atto-3-2022-1",
+  "year": 2022,
+  "price": 55000000,
+  "mileage": 119114,
+  "fuel": "Diesel",
+  "transmission": "Manual",
+  "engine": "2.5L",
+  "bodyType": "Crossover",
+  "color": "Jet Black",
+  "seats": 5,
+  "doors": 4,
+  "driveType": "FWD",
+  "location": "Kigali - Remera",
+  "condition": "Used",
+  "description": "A well-maintained 2022 BYD Atto 3, imported and inspected. Full service history available on request.",
+  "features": [
+    "Air Conditioning",
+    "Bluetooth",
+    "Reverse Camera",
+    "Alloy Wheels",
+    "Cruise Control"
+  ],
+  "images": [
+    {
+      "url": "https://images.unsplash.com/photo-1583121274602-3e2820c69888?auto=format&fit=crop&w=1200&q=80&BYD%20Atto%203",
+      "isPrimary": true
+    }
+  ],
+  "status": "Available",
+  "featured": false,
+  "isDemo": true,
+  "views": 88,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-08-15T02:56:37.492Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-15T02:56:37.492Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a7fd56518ce563fe195858c"
+  },
+  "brandId": {
+    "$oid": "6a7fd56518ce563fe1958553"
+  },
+  "modelId": {
+    "$oid": "6a7fd56518ce563fe1958557"
+  },
+  "slug": "byd-dolphin-2020-0",
+  "year": 2020,
+  "price": 32000000,
+  "mileage": 23692,
+  "fuel": "Electric",
+  "transmission": "Automatic",
+  "engine": "1.5L",
+  "bodyType": "Hatchback",
+  "color": "Silver",
+  "seats": 7,
+  "doors": 4,
+  "driveType": "FWD",
+  "location": "Kigali - Nyarutarama",
+  "condition": "Used",
+  "description": "A well-maintained 2020 BYD Dolphin, imported and inspected. Full service history available on request.",
+  "features": [
+    "Air Conditioning",
+    "Bluetooth",
+    "Reverse Camera",
+    "Alloy Wheels",
+    "Cruise Control"
+  ],
+  "images": [
+    {
+      "url": "https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=1200&q=80&BYD%20Dolphin",
+      "isPrimary": true
+    }
+  ],
+  "status": "Available",
+  "featured": false,
+  "isDemo": true,
+  "views": 52,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-08-15T02:56:37.492Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-15T02:56:37.492Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a7fd56518ce563fe195858d"
+  },
+  "brandId": {
+    "$oid": "6a7fd56518ce563fe1958553"
+  },
+  "modelId": {
+    "$oid": "6a7fd56518ce563fe1958557"
+  },
+  "slug": "byd-dolphin-2023-1",
+  "year": 2023,
+  "price": 10000000,
+  "mileage": 112364,
+  "fuel": "Electric",
+  "transmission": "Automatic",
+  "engine": "2.2L",
+  "bodyType": "Hatchback",
+  "color": "Red",
+  "seats": 5,
+  "doors": 4,
+  "driveType": "FWD",
+  "location": "Kigali - Kacyiru",
+  "condition": "Used",
+  "description": "A well-maintained 2023 BYD Dolphin, imported and inspected. Full service history available on request.",
+  "features": [
+    "Air Conditioning",
+    "Bluetooth",
+    "Reverse Camera",
+    "Alloy Wheels",
+    "Cruise Control"
+  ],
+  "images": [
+    {
+      "url": "https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?auto=format&fit=crop&w=1200&q=80&BYD%20Dolphin",
+      "isPrimary": true
+    }
+  ],
+  "status": "Available",
+  "featured": false,
+  "isDemo": true,
+  "views": 415,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-08-15T02:56:37.492Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-15T02:56:37.492Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a7fd56518ce563fe195858e"
+  },
+  "brandId": {
+    "$oid": "6a7fd56518ce563fe1958559"
+  },
+  "modelId": {
+    "$oid": "6a7fd56518ce563fe195855b"
+  },
+  "slug": "tesla-model-3-2020-0",
+  "year": 2020,
+  "price": 25000000,
+  "mileage": 45350,
+  "fuel": "Hybrid",
+  "transmission": "Manual",
+  "engine": "3.1L",
+  "bodyType": "Sedan",
+  "color": "Red",
+  "seats": 5,
+  "doors": 4,
+  "driveType": "FWD",
+  "location": "Kigali - Nyarutarama",
+  "condition": "Used",
+  "description": "A well-maintained 2020 Tesla Model 3, imported and inspected. Full service history available on request.",
+  "features": [
+    "Air Conditioning",
+    "Bluetooth",
+    "Reverse Camera",
+    "Alloy Wheels",
+    "Cruise Control"
+  ],
+  "images": [
+    {
+      "url": "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&w=1200&q=80&Tesla%20Model%203",
+      "isPrimary": true
+    }
+  ],
+  "status": "Available",
+  "featured": false,
+  "isDemo": true,
+  "views": 170,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-08-15T02:56:37.492Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-15T02:56:37.492Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a7fd56518ce563fe195858f"
+  },
+  "brandId": {
+    "$oid": "6a7fd56518ce563fe1958559"
+  },
+  "modelId": {
+    "$oid": "6a7fd56518ce563fe195855b"
+  },
+  "slug": "tesla-model-3-2023-1",
+  "year": 2023,
+  "price": 59000000,
+  "mileage": 34195,
+  "fuel": "Hybrid",
+  "transmission": "Automatic",
+  "engine": "1.5L",
+  "bodyType": "Sedan",
+  "color": "Pearl White",
+  "seats": 5,
+  "doors": 4,
+  "driveType": "FWD",
+  "location": "Kigali - Kacyiru",
+  "condition": "Used",
+  "description": "A well-maintained 2023 Tesla Model 3, imported and inspected. Full service history available on request.",
+  "features": [
+    "Air Conditioning",
+    "Bluetooth",
+    "Reverse Camera",
+    "Alloy Wheels",
+    "Cruise Control"
+  ],
+  "images": [
+    {
+      "url": "https://images.unsplash.com/photo-1583121274602-3e2820c69888?auto=format&fit=crop&w=1200&q=80&Tesla%20Model%203",
+      "isPrimary": true
+    }
+  ],
+  "status": "Available",
+  "featured": false,
+  "isDemo": true,
+  "views": 446,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-08-15T02:56:37.492Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-15T02:56:37.492Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a7fd56518ce563fe1958590"
+  },
+  "brandId": {
+    "$oid": "6a7fd56518ce563fe1958559"
+  },
+  "modelId": {
+    "$oid": "6a7fd56518ce563fe195855d"
+  },
+  "slug": "tesla-model-y-2021-0",
+  "year": 2021,
+  "price": 59000000,
+  "mileage": 26332,
+  "fuel": "Diesel",
+  "transmission": "Manual",
+  "engine": "2.4L",
+  "bodyType": "SUV",
+  "color": "Deep Blue",
+  "seats": 7,
+  "doors": 4,
+  "driveType": "AWD",
+  "location": "Kigali - Remera",
+  "condition": "Used",
+  "description": "A well-maintained 2021 Tesla Model Y, imported and inspected. Full service history available on request.",
+  "features": [
+    "Air Conditioning",
+    "Bluetooth",
+    "Reverse Camera",
+    "Alloy Wheels",
+    "Cruise Control"
+  ],
+  "images": [
+    {
+      "url": "https://images.unsplash.com/photo-1580273916550-e323be2ae537?auto=format&fit=crop&w=1200&q=80&Tesla%20Model%20Y",
+      "isPrimary": true
+    }
+  ],
+  "status": "Available",
+  "featured": false,
+  "isDemo": true,
+  "views": 9,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-08-15T02:56:37.492Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-15T02:56:37.492Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a7fd56518ce563fe1958591"
+  },
+  "brandId": {
+    "$oid": "6a7fd56518ce563fe1958559"
+  },
+  "modelId": {
+    "$oid": "6a7fd56518ce563fe195855d"
+  },
+  "slug": "tesla-model-y-2021-1",
+  "year": 2021,
+  "price": 17000000,
+  "mileage": 80567,
+  "fuel": "Diesel",
+  "transmission": "Automatic",
+  "engine": "2.3L",
+  "bodyType": "SUV",
+  "color": "Graphite Grey",
+  "seats": 7,
+  "doors": 4,
+  "driveType": "4WD",
+  "location": "Kigali - Kimironko",
+  "condition": "Used",
+  "description": "A well-maintained 2021 Tesla Model Y, imported and inspected. Full service history available on request.",
+  "features": [
+    "Air Conditioning",
+    "Bluetooth",
+    "Reverse Camera",
+    "Alloy Wheels",
+    "Cruise Control"
+  ],
+  "images": [
+    {
+      "url": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1200&q=80&Tesla%20Model%20Y",
+      "isPrimary": true
+    }
+  ],
+  "status": "Available",
+  "featured": false,
+  "isDemo": true,
+  "views": 456,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-08-15T02:56:37.493Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-15T02:56:37.493Z"
+  }
+}]

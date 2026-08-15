@@ -1,0 +1,29 @@
+[{
+  "_id": {
+    "$oid": "6a7fd56518ce563fe1958505"
+  },
+  "whatsappNumber": "+250793810796",
+  "phone": "+250793810796",
+  "email": "info@skimprwanda.com",
+  "address": "Kigali, Rwanda",
+  "mapUrl": "",
+  "instagramHandle": "@skimp_rwanda",
+  "facebookUrl": "",
+  "businessHours": {
+    "monFri": "8:00 AM - 6:00 PM",
+    "saturday": "9:00 AM - 4:00 PM",
+    "sunday": "Closed"
+  },
+  "homepageHero": {
+    "title": "Your next car is closer than you think.",
+    "subtitle": "Quality vehicles. Clear information. A simpler way to buy."
+  },
+  "aboutContent": "",
+  "createdAt": {
+    "$date": "2026-08-15T02:56:37.342Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-15T02:56:37.342Z"
+  },
+  "__v": 0
+}]
