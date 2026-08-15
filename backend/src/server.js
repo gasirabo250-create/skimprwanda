@@ -22,8 +22,26 @@ app.use(helmet({ crossOriginResourcePolicy: { policy: 'cross-origin' } }));
 // CORS - allow frontend and localhost
 app.use(
   cors({
-    origin: process.env.CLIENT_URL || 'http://localhost:5173',
+    origin: (origin, callback) => {
+      const allowedOrigins = [
+        process.env.CLIENT_URL || 'http://localhost:5173',
+        'http://localhost:5173',
+        'http://localhost:3000',
+        // Allow all vercel.app domains
+        ...(typeof origin === 'string' && origin?.includes('vercel.app') ? [origin] : []),
+      ];
+      
+      if (!origin || allowedOrigins.includes(origin)) {
+        callback(null, true);
+      } else {
+        callback(new Error('Not allowed by CORS'));
+      }
+    },
     credentials: true,
+    methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS', 'HEAD'],
+    allowedHeaders: ['Content-Type', 'Authorization', 'X-Requested-With'],
+    exposedHeaders: ['Content-Length', 'X-JSON-Response'],
+    maxAge: 600,
   })
 );
 
@@ -53,6 +71,21 @@ app.use(
 // Static file serving for locally-uploaded images
 app.use('/uploads', express.static(path.join(__dirname, '..', 'uploads')));
 
+// Middleware to ensure DB is connected (lazy connect for serverless)
+app.use(async (req, res, next) => {
+  if (req.path === '/' || req.path === '/api/health') {
+    return next();
+  }
+  
+  try {
+    await connectDB();
+  } catch (err) {
+    console.error('DB connection error:', err.message);
+    // Continue anyway - some endpoints might not need DB
+  }
+  next();
+});
+
 // Health check
 app.get('/', (req, res) => {
   res.json({ message: 'SKIMP Rwanda API is listening 🚗', timestamp: new Date() });
@@ -74,9 +107,12 @@ app.use('/api/upload', require('./routes/uploadRoutes'));
 app.use(notFound);
 app.use(errorHandler);
 
-const PORT = process.env.PORT || 5000;
-app.listen(PORT, () => {
-  console.log(`SKIMP Rwanda API running on port ${PORT} [${process.env.NODE_ENV || 'development'}]`);
-});
+// Only listen on local development, not on Vercel
+if (!process.env.VERCEL) {
+  const PORT = process.env.PORT || 5000;
+  app.listen(PORT, () => {
+    console.log(`SKIMP Rwanda API running on port ${PORT} [${process.env.NODE_ENV || 'development'}]`);
+  });
+}
 
 module.exports = app;

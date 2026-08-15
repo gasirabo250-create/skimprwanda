@@ -1,6 +1,8 @@
-frontend
 .git
 .gitignore
 README.md
 *.md
 .env.example
+node_modules
+npm-debug.log
+.DS_Store
