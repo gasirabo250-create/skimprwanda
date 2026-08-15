@@ -12,46 +12,20 @@ const xss = require('xss-clean');
 const connectDB = require('./config/db');
 const { notFound, errorHandler } = require('./middleware/errorHandler');
 
-// Connect to MongoDB asynchronously, don't block app initialization
-if (!process.env.VERCEL || process.env.NODE_ENV === 'development') {
-  connectDB().catch(err => console.error('MongoDB connection error:', err.message));
-}
+connectDB();
 
 const app = express();
-
-// Health check before DB (for serverless monitoring)
-app.get('/health', (req, res) => res.status(200).json({ ok: true }));
-app.get('/api/health', (req, res) => res.status(200).json({ ok: true }));
 
 // Security headers
 app.use(helmet({ crossOriginResourcePolicy: { policy: 'cross-origin' } }));
 
-// CORS configuration - allow all vercel.app origins and localhost for development
+// CORS - allow frontend and localhost
 app.use(
   cors({
-    origin: true, // Allow all origins (can be restricted later if needed)
+    origin: process.env.CLIENT_URL || 'http://localhost:5173',
     credentials: true,
-    methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS', 'HEAD'],
-    allowedHeaders: ['Content-Type', 'Authorization', 'X-Requested-With'],
-    exposedHeaders: ['Content-Length', 'X-JSON-Response'],
-    maxAge: 600,
   })
 );
-
-// Middleware to ensure DB is connected (lazy connect for serverless)
-app.use(async (req, res, next) => {
-  if (req.path === '/health' || req.path === '/api/health') {
-    return next();
-  }
-  
-  try {
-    await connectDB();
-  } catch (err) {
-    console.error('DB connection error:', err.message);
-    // Continue anyway - some endpoints might not need DB
-  }
-  next();
-});
 
 // Body parsing
 app.use(express.json({ limit: '10mb' }));
@@ -95,12 +69,9 @@ app.use('/api/upload', require('./routes/uploadRoutes'));
 app.use(notFound);
 app.use(errorHandler);
 
-// Only listen in local development, not on Vercel serverless
-if (!process.env.VERCEL) {
-  const PORT = process.env.PORT || 5000;
-  app.listen(PORT, () => {
-    console.log(`SKIMP Rwanda API running on port ${PORT} [${process.env.NODE_ENV || 'development'}]`);
-  });
-}
+const PORT = process.env.PORT || 5000;
+app.listen(PORT, () => {
+  console.log(`SKIMP Rwanda API running on port ${PORT} [${process.env.NODE_ENV || 'development'}]`);
+});
 
 module.exports = app;
