@@ -15,14 +15,30 @@ const { notFound, errorHandler } = require('./middleware/errorHandler');
 connectDB();
 
 const app = express();
+const allowedOrigins = [
+  'http://localhost:5173',
+  'http://127.0.0.1:5173',
+  'https://skimprwanda.vercel.app',
+  'https://www.skimprwanda.vercel.app',
+  process.env.CLIENT_URL,
+  process.env.CLIENT_URL_LOCAL,
+  process.env.CLIENT_URL_PROD,
+].filter(Boolean);
 
 // Security headers
 app.use(helmet({ crossOriginResourcePolicy: { policy: 'cross-origin' } }));
 
-// CORS - only allow the configured frontend origin, with credentials for the httpOnly cookie
+// CORS - allow local dev and deployed Vercel origins
 app.use(
   cors({
-    origin: process.env.CLIENT_URL || 'http://localhost:5173',
+    origin: (origin, callback) => {
+      if (!origin || allowedOrigins.includes(origin) || origin.endsWith('.vercel.app')) {
+        callback(null, true);
+        return;
+      }
+
+      callback(new Error('Not allowed by CORS'));
+    },
     credentials: true,
   })
 );
